@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447023A85A15324FF2888752 /* libPods-STImgPickerC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */; };
+		9E675B691E77044000FCEA79 /* STBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675B681E77044000FCEA79 /* STBaseView.m */; };
+		9E675B6C1E77045200FCEA79 /* STBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675B6B1E77045200FCEA79 /* STBaseViewC.m */; };
+		9E675B761E7705FE00FCEA79 /* STShowLogicBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675B751E7705FE00FCEA79 /* STShowLogicBaseViewC.m */; };
+		9E675B791E77060D00FCEA79 /* STShowUIBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675B781E77060D00FCEA79 /* STShowUIBaseViewC.m */; };
+		9E675C2D1E77089600FCEA79 /* STShowSystemLogicViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C2B1E77089600FCEA79 /* STShowSystemLogicViewC.m */; };
+		9E675C2E1E77089600FCEA79 /* STShowSystemLogicViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C2C1E77089600FCEA79 /* STShowSystemLogicViewC.xib */; };
+		9E675C321E7708B400FCEA79 /* STShowSystemUIViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C301E7708B400FCEA79 /* STShowSystemUIViewC.m */; };
+		9E675C331E7708B400FCEA79 /* STShowSystemUIViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C311E7708B400FCEA79 /* STShowSystemUIViewC.xib */; };
+		9E675C361E7708FC00FCEA79 /* STShowBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C351E7708FC00FCEA79 /* STShowBaseViewC.m */; };
+		9E675C3A1E77093700FCEA79 /* STShowSystemViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C381E77093700FCEA79 /* STShowSystemViewC.m */; };
+		9E675C3B1E77093700FCEA79 /* STShowSystemViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C391E77093700FCEA79 /* STShowSystemViewC.xib */; };
+		9E675C3F1E77095200FCEA79 /* STShowThirdLogicViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C3D1E77095200FCEA79 /* STShowThirdLogicViewC.m */; };
+		9E675C401E77095200FCEA79 /* STShowThirdLogicViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C3E1E77095200FCEA79 /* STShowThirdLogicViewC.xib */; };
+		9E675C441E77096F00FCEA79 /* STShowThirdUIViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C421E77096F00FCEA79 /* STShowThirdUIViewC.m */; };
+		9E675C451E77096F00FCEA79 /* STShowThirdUIViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C431E77096F00FCEA79 /* STShowThirdUIViewC.xib */; };
+		9E675C531E7709F200FCEA79 /* STShowThirdViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C511E7709F200FCEA79 /* STShowThirdViewC.m */; };
+		9E675C541E7709F200FCEA79 /* STShowThirdViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C521E7709F200FCEA79 /* STShowThirdViewC.xib */; };
+		9E675C581E770B0B00FCEA79 /* STShowPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C571E770B0B00FCEA79 /* STShowPhotoView.m */; };
+		9E675C5A1E770B1300FCEA79 /* STShowPhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C591E770B1300FCEA79 /* STShowPhotoView.xib */; };
+		9EDA9D061E770124008317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D051E770124008317D3 /* main.m */; };
+		9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D081E770124008317D3 /* AppDelegate.m */; };
+		9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D0B1E770124008317D3 /* ViewController.m */; };
+		9EDA9D0F1E770124008317D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA9D0D1E770124008317D3 /* Main.storyboard */; };
+		9EDA9D111E770124008317D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA9D101E770124008317D3 /* Assets.xcassets */; };
+		9EDA9D141E770124008317D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA9D121E770124008317D3 /* LaunchScreen.storyboard */; };
+		9EDA9D1F1E770125008317D3 /* STImgPickerCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D1E1E770125008317D3 /* STImgPickerCTests.m */; };
+		9EDA9D2A1E770125008317D3 /* STImgPickerCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D291E770125008317D3 /* STImgPickerCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9EDA9D1B1E770125008317D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EDA9CF91E770124008317D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EDA9D001E770124008317D3;
+			remoteInfo = STImgPickerC;
+		};
+		9EDA9D261E770125008317D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9EDA9CF91E770124008317D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EDA9D001E770124008317D3;
+			remoteInfo = STImgPickerC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STImgPickerC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1FBB4434AF43A55045ED90 /* Pods-STImgPickerC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STImgPickerC.release.xcconfig"; path = "Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC.release.xcconfig"; sourceTree = "<group>"; };
+		5830F93B301A5A4EE3BCF3D6 /* Pods-STImgPickerC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STImgPickerC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC.debug.xcconfig"; sourceTree = "<group>"; };
+		9E675B671E77044000FCEA79 /* STBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseView.h; sourceTree = "<group>"; };
+		9E675B681E77044000FCEA79 /* STBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseView.m; sourceTree = "<group>"; };
+		9E675B6A1E77045200FCEA79 /* STBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseViewC.h; sourceTree = "<group>"; };
+		9E675B6B1E77045200FCEA79 /* STBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewC.m; sourceTree = "<group>"; };
+		9E675B741E7705FE00FCEA79 /* STShowLogicBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowLogicBaseViewC.h; sourceTree = "<group>"; };
+		9E675B751E7705FE00FCEA79 /* STShowLogicBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowLogicBaseViewC.m; sourceTree = "<group>"; };
+		9E675B771E77060D00FCEA79 /* STShowUIBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowUIBaseViewC.h; sourceTree = "<group>"; };
+		9E675B781E77060D00FCEA79 /* STShowUIBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowUIBaseViewC.m; sourceTree = "<group>"; };
+		9E675C2A1E77089600FCEA79 /* STShowSystemLogicViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowSystemLogicViewC.h; sourceTree = "<group>"; };
+		9E675C2B1E77089600FCEA79 /* STShowSystemLogicViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowSystemLogicViewC.m; sourceTree = "<group>"; };
+		9E675C2C1E77089600FCEA79 /* STShowSystemLogicViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowSystemLogicViewC.xib; sourceTree = "<group>"; };
+		9E675C2F1E7708B400FCEA79 /* STShowSystemUIViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowSystemUIViewC.h; sourceTree = "<group>"; };
+		9E675C301E7708B400FCEA79 /* STShowSystemUIViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowSystemUIViewC.m; sourceTree = "<group>"; };
+		9E675C311E7708B400FCEA79 /* STShowSystemUIViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowSystemUIViewC.xib; sourceTree = "<group>"; };
+		9E675C341E7708FC00FCEA79 /* STShowBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowBaseViewC.h; sourceTree = "<group>"; };
+		9E675C351E7708FC00FCEA79 /* STShowBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowBaseViewC.m; sourceTree = "<group>"; };
+		9E675C371E77093700FCEA79 /* STShowSystemViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowSystemViewC.h; sourceTree = "<group>"; };
+		9E675C381E77093700FCEA79 /* STShowSystemViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowSystemViewC.m; sourceTree = "<group>"; };
+		9E675C391E77093700FCEA79 /* STShowSystemViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowSystemViewC.xib; sourceTree = "<group>"; };
+		9E675C3C1E77095100FCEA79 /* STShowThirdLogicViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowThirdLogicViewC.h; sourceTree = "<group>"; };
+		9E675C3D1E77095200FCEA79 /* STShowThirdLogicViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowThirdLogicViewC.m; sourceTree = "<group>"; };
+		9E675C3E1E77095200FCEA79 /* STShowThirdLogicViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowThirdLogicViewC.xib; sourceTree = "<group>"; };
+		9E675C411E77096F00FCEA79 /* STShowThirdUIViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowThirdUIViewC.h; sourceTree = "<group>"; };
+		9E675C421E77096F00FCEA79 /* STShowThirdUIViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowThirdUIViewC.m; sourceTree = "<group>"; };
+		9E675C431E77096F00FCEA79 /* STShowThirdUIViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowThirdUIViewC.xib; sourceTree = "<group>"; };
+		9E675C501E7709F200FCEA79 /* STShowThirdViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowThirdViewC.h; sourceTree = "<group>"; };
+		9E675C511E7709F200FCEA79 /* STShowThirdViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowThirdViewC.m; sourceTree = "<group>"; };
+		9E675C521E7709F200FCEA79 /* STShowThirdViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowThirdViewC.xib; sourceTree = "<group>"; };
+		9E675C561E770B0B00FCEA79 /* STShowPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowPhotoView.h; sourceTree = "<group>"; };
+		9E675C571E770B0B00FCEA79 /* STShowPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowPhotoView.m; sourceTree = "<group>"; };
+		9E675C591E770B1300FCEA79 /* STShowPhotoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowPhotoView.xib; sourceTree = "<group>"; };
+		9EDA9D011E770124008317D3 /* STImgPickerC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STImgPickerC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDA9D051E770124008317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9EDA9D071E770124008317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9EDA9D081E770124008317D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9EDA9D0A1E770124008317D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9EDA9D0B1E770124008317D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9EDA9D0E1E770124008317D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9EDA9D101E770124008317D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EDA9D131E770124008317D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9EDA9D151E770124008317D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDA9D1A1E770125008317D3 /* STImgPickerCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STImgPickerCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDA9D1E1E770125008317D3 /* STImgPickerCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STImgPickerCTests.m; sourceTree = "<group>"; };
+		9EDA9D201E770125008317D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EDA9D251E770125008317D3 /* STImgPickerCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STImgPickerCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EDA9D291E770125008317D3 /* STImgPickerCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STImgPickerCUITests.m; sourceTree = "<group>"; };
+		9EDA9D2B1E770125008317D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EDA9CFE1E770124008317D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447023A85A15324FF2888752 /* libPods-STImgPickerC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDA9D171E770125008317D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDA9D221E770125008317D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C6D44F234C496ECE0B44D04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5830F93B301A5A4EE3BCF3D6 /* Pods-STImgPickerC.debug.xcconfig */,
+				0F1FBB4434AF43A55045ED90 /* Pods-STImgPickerC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E675B631E77037200FCEA79 /* STCommon */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B641E7703E300FCEA79 /* STUI */,
+			);
+			path = STCommon;
+			sourceTree = "<group>";
+		};
+		9E675B641E7703E300FCEA79 /* STUI */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C551E770AF700FCEA79 /* STShowPhotoView */,
+				9E675B661E77042700FCEA79 /* STBaseView */,
+				9E675B651E7703F700FCEA79 /* STBaseViewC */,
+			);
+			path = STUI;
+			sourceTree = "<group>";
+		};
+		9E675B651E7703F700FCEA79 /* STBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B6A1E77045200FCEA79 /* STBaseViewC.h */,
+				9E675B6B1E77045200FCEA79 /* STBaseViewC.m */,
+			);
+			path = STBaseViewC;
+			sourceTree = "<group>";
+		};
+		9E675B661E77042700FCEA79 /* STBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B671E77044000FCEA79 /* STBaseView.h */,
+				9E675B681E77044000FCEA79 /* STBaseView.m */,
+			);
+			path = STBaseView;
+			sourceTree = "<group>";
+		};
+		9E675B6D1E77054200FCEA79 /* STShowBase */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B6E1E77057C00FCEA79 /* STShowBaseViewC */,
+				9E675B6F1E77057C00FCEA79 /* STShowLogicBaseViewC */,
+				9E675B701E77057C00FCEA79 /* STShowUIBaseViewC */,
+			);
+			path = STShowBase;
+			sourceTree = "<group>";
+		};
+		9E675B6E1E77057C00FCEA79 /* STShowBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C341E7708FC00FCEA79 /* STShowBaseViewC.h */,
+				9E675C351E7708FC00FCEA79 /* STShowBaseViewC.m */,
+			);
+			path = STShowBaseViewC;
+			sourceTree = "<group>";
+		};
+		9E675B6F1E77057C00FCEA79 /* STShowLogicBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B741E7705FE00FCEA79 /* STShowLogicBaseViewC.h */,
+				9E675B751E7705FE00FCEA79 /* STShowLogicBaseViewC.m */,
+			);
+			path = STShowLogicBaseViewC;
+			sourceTree = "<group>";
+		};
+		9E675B701E77057C00FCEA79 /* STShowUIBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B771E77060D00FCEA79 /* STShowUIBaseViewC.h */,
+				9E675B781E77060D00FCEA79 /* STShowUIBaseViewC.m */,
+			);
+			path = STShowUIBaseViewC;
+			sourceTree = "<group>";
+		};
+		9E675B7B1E7707AF00FCEA79 /* STShowSystem */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B7D1E7707F800FCEA79 /* STShowSystemLogicViewC */,
+				9E675B7E1E7707F800FCEA79 /* STShowSystemUIViewC */,
+				9E675B7F1E7707F800FCEA79 /* STShowSystemViewC */,
+			);
+			path = STShowSystem;
+			sourceTree = "<group>";
+		};
+		9E675B7C1E7707C300FCEA79 /* STShowThird */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B811E77086A00FCEA79 /* STShowThirdLogicViewC */,
+				9E675B821E77086A00FCEA79 /* STShowThirdUIViewC */,
+				9E675B831E77086A00FCEA79 /* STShowThirdViewC */,
+			);
+			path = STShowThird;
+			sourceTree = "<group>";
+		};
+		9E675B7D1E7707F800FCEA79 /* STShowSystemLogicViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C2A1E77089600FCEA79 /* STShowSystemLogicViewC.h */,
+				9E675C2B1E77089600FCEA79 /* STShowSystemLogicViewC.m */,
+				9E675C2C1E77089600FCEA79 /* STShowSystemLogicViewC.xib */,
+			);
+			path = STShowSystemLogicViewC;
+			sourceTree = "<group>";
+		};
+		9E675B7E1E7707F800FCEA79 /* STShowSystemUIViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C2F1E7708B400FCEA79 /* STShowSystemUIViewC.h */,
+				9E675C301E7708B400FCEA79 /* STShowSystemUIViewC.m */,
+				9E675C311E7708B400FCEA79 /* STShowSystemUIViewC.xib */,
+			);
+			path = STShowSystemUIViewC;
+			sourceTree = "<group>";
+		};
+		9E675B7F1E7707F800FCEA79 /* STShowSystemViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C371E77093700FCEA79 /* STShowSystemViewC.h */,
+				9E675C381E77093700FCEA79 /* STShowSystemViewC.m */,
+				9E675C391E77093700FCEA79 /* STShowSystemViewC.xib */,
+			);
+			path = STShowSystemViewC;
+			sourceTree = "<group>";
+		};
+		9E675B811E77086A00FCEA79 /* STShowThirdLogicViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C3C1E77095100FCEA79 /* STShowThirdLogicViewC.h */,
+				9E675C3D1E77095200FCEA79 /* STShowThirdLogicViewC.m */,
+				9E675C3E1E77095200FCEA79 /* STShowThirdLogicViewC.xib */,
+			);
+			path = STShowThirdLogicViewC;
+			sourceTree = "<group>";
+		};
+		9E675B821E77086A00FCEA79 /* STShowThirdUIViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C411E77096F00FCEA79 /* STShowThirdUIViewC.h */,
+				9E675C421E77096F00FCEA79 /* STShowThirdUIViewC.m */,
+				9E675C431E77096F00FCEA79 /* STShowThirdUIViewC.xib */,
+			);
+			path = STShowThirdUIViewC;
+			sourceTree = "<group>";
+		};
+		9E675B831E77086A00FCEA79 /* STShowThirdViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C501E7709F200FCEA79 /* STShowThirdViewC.h */,
+				9E675C511E7709F200FCEA79 /* STShowThirdViewC.m */,
+				9E675C521E7709F200FCEA79 /* STShowThirdViewC.xib */,
+			);
+			path = STShowThirdViewC;
+			sourceTree = "<group>";
+		};
+		9E675C551E770AF700FCEA79 /* STShowPhotoView */ = {
+			isa = PBXGroup;
+			children = (
+				9E675C561E770B0B00FCEA79 /* STShowPhotoView.h */,
+				9E675C571E770B0B00FCEA79 /* STShowPhotoView.m */,
+				9E675C591E770B1300FCEA79 /* STShowPhotoView.xib */,
+			);
+			path = STShowPhotoView;
+			sourceTree = "<group>";
+		};
+		9EDA9CF81E770124008317D3 = {
+			isa = PBXGroup;
+			children = (
+				9EDA9D031E770124008317D3 /* STImgPickerC */,
+				9EDA9D1D1E770125008317D3 /* STImgPickerCTests */,
+				9EDA9D281E770125008317D3 /* STImgPickerCUITests */,
+				9EDA9D021E770124008317D3 /* Products */,
+				8C6D44F234C496ECE0B44D04 /* Pods */,
+				AE585406A722600855FCB311 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9EDA9D021E770124008317D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EDA9D011E770124008317D3 /* STImgPickerC.app */,
+				9EDA9D1A1E770125008317D3 /* STImgPickerCTests.xctest */,
+				9EDA9D251E770125008317D3 /* STImgPickerCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EDA9D031E770124008317D3 /* STImgPickerC */ = {
+			isa = PBXGroup;
+			children = (
+				9E675B7C1E7707C300FCEA79 /* STShowThird */,
+				9E675B7B1E7707AF00FCEA79 /* STShowSystem */,
+				9E675B6D1E77054200FCEA79 /* STShowBase */,
+				9E675B631E77037200FCEA79 /* STCommon */,
+				9EDA9D071E770124008317D3 /* AppDelegate.h */,
+				9EDA9D081E770124008317D3 /* AppDelegate.m */,
+				9EDA9D0A1E770124008317D3 /* ViewController.h */,
+				9EDA9D0B1E770124008317D3 /* ViewController.m */,
+				9EDA9D0D1E770124008317D3 /* Main.storyboard */,
+				9EDA9D101E770124008317D3 /* Assets.xcassets */,
+				9EDA9D121E770124008317D3 /* LaunchScreen.storyboard */,
+				9EDA9D151E770124008317D3 /* Info.plist */,
+				9EDA9D041E770124008317D3 /* Supporting Files */,
+			);
+			path = STImgPickerC;
+			sourceTree = "<group>";
+		};
+		9EDA9D041E770124008317D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EDA9D051E770124008317D3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9EDA9D1D1E770125008317D3 /* STImgPickerCTests */ = {
+			isa = PBXGroup;
+			children = (
+				9EDA9D1E1E770125008317D3 /* STImgPickerCTests.m */,
+				9EDA9D201E770125008317D3 /* Info.plist */,
+			);
+			path = STImgPickerCTests;
+			sourceTree = "<group>";
+		};
+		9EDA9D281E770125008317D3 /* STImgPickerCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9EDA9D291E770125008317D3 /* STImgPickerCUITests.m */,
+				9EDA9D2B1E770125008317D3 /* Info.plist */,
+			);
+			path = STImgPickerCUITests;
+			sourceTree = "<group>";
+		};
+		AE585406A722600855FCB311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EDA9D001E770124008317D3 /* STImgPickerC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDA9D2E1E770125008317D3 /* Build configuration list for PBXNativeTarget "STImgPickerC" */;
+			buildPhases = (
+				C724B68A1B2A9C0FD1DB05C1 /* [CP] Check Pods Manifest.lock */,
+				9EDA9CFD1E770124008317D3 /* Sources */,
+				9EDA9CFE1E770124008317D3 /* Frameworks */,
+				9EDA9CFF1E770124008317D3 /* Resources */,
+				8BAA9FFA83BFD6A11505C99C /* [CP] Embed Pods Frameworks */,
+				C399DB5C41A2DBE572950996 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STImgPickerC;
+			productName = STImgPickerC;
+			productReference = 9EDA9D011E770124008317D3 /* STImgPickerC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9EDA9D191E770125008317D3 /* STImgPickerCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDA9D311E770125008317D3 /* Build configuration list for PBXNativeTarget "STImgPickerCTests" */;
+			buildPhases = (
+				9EDA9D161E770125008317D3 /* Sources */,
+				9EDA9D171E770125008317D3 /* Frameworks */,
+				9EDA9D181E770125008317D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EDA9D1C1E770125008317D3 /* PBXTargetDependency */,
+			);
+			name = STImgPickerCTests;
+			productName = STImgPickerCTests;
+			productReference = 9EDA9D1A1E770125008317D3 /* STImgPickerCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9EDA9D241E770125008317D3 /* STImgPickerCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EDA9D341E770125008317D3 /* Build configuration list for PBXNativeTarget "STImgPickerCUITests" */;
+			buildPhases = (
+				9EDA9D211E770125008317D3 /* Sources */,
+				9EDA9D221E770125008317D3 /* Frameworks */,
+				9EDA9D231E770125008317D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EDA9D271E770125008317D3 /* PBXTargetDependency */,
+			);
+			name = STImgPickerCUITests;
+			productName = STImgPickerCUITests;
+			productReference = 9EDA9D251E770125008317D3 /* STImgPickerCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EDA9CF91E770124008317D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = SlienceTeam;
+				TargetAttributes = {
+					9EDA9D001E770124008317D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+					};
+					9EDA9D191E770125008317D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EDA9D001E770124008317D3;
+					};
+					9EDA9D241E770125008317D3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9EDA9D001E770124008317D3;
+					};
+				};
+			};
+			buildConfigurationList = 9EDA9CFC1E770124008317D3 /* Build configuration list for PBXProject "STImgPickerC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EDA9CF81E770124008317D3;
+			productRefGroup = 9EDA9D021E770124008317D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EDA9D001E770124008317D3 /* STImgPickerC */,
+				9EDA9D191E770125008317D3 /* STImgPickerCTests */,
+				9EDA9D241E770125008317D3 /* STImgPickerCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EDA9CFF1E770124008317D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E675C2E1E77089600FCEA79 /* STShowSystemLogicViewC.xib in Resources */,
+				9EDA9D141E770124008317D3 /* LaunchScreen.storyboard in Resources */,
+				9E675C331E7708B400FCEA79 /* STShowSystemUIViewC.xib in Resources */,
+				9EDA9D111E770124008317D3 /* Assets.xcassets in Resources */,
+				9EDA9D0F1E770124008317D3 /* Main.storyboard in Resources */,
+				9E675C5A1E770B1300FCEA79 /* STShowPhotoView.xib in Resources */,
+				9E675C401E77095200FCEA79 /* STShowThirdLogicViewC.xib in Resources */,
+				9E675C451E77096F00FCEA79 /* STShowThirdUIViewC.xib in Resources */,
+				9E675C541E7709F200FCEA79 /* STShowThirdViewC.xib in Resources */,
+				9E675C3B1E77093700FCEA79 /* STShowSystemViewC.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDA9D181E770125008317D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDA9D231E770125008317D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BAA9FFA83BFD6A11505C99C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C399DB5C41A2DBE572950996 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C724B68A1B2A9C0FD1DB05C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EDA9CFD1E770124008317D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E675C321E7708B400FCEA79 /* STShowSystemUIViewC.m in Sources */,
+				9E675C3A1E77093700FCEA79 /* STShowSystemViewC.m in Sources */,
+				9E675B691E77044000FCEA79 /* STBaseView.m in Sources */,
+				9E675C2D1E77089600FCEA79 /* STShowSystemLogicViewC.m in Sources */,
+				9E675C531E7709F200FCEA79 /* STShowThirdViewC.m in Sources */,
+				9E675B6C1E77045200FCEA79 /* STBaseViewC.m in Sources */,
+				9E675C3F1E77095200FCEA79 /* STShowThirdLogicViewC.m in Sources */,
+				9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */,
+				9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */,
+				9E675C581E770B0B00FCEA79 /* STShowPhotoView.m in Sources */,
+				9E675B791E77060D00FCEA79 /* STShowUIBaseViewC.m in Sources */,
+				9E675C361E7708FC00FCEA79 /* STShowBaseViewC.m in Sources */,
+				9E675B761E7705FE00FCEA79 /* STShowLogicBaseViewC.m in Sources */,
+				9EDA9D061E770124008317D3 /* main.m in Sources */,
+				9E675C441E77096F00FCEA79 /* STShowThirdUIViewC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDA9D161E770125008317D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDA9D1F1E770125008317D3 /* STImgPickerCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EDA9D211E770125008317D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EDA9D2A1E770125008317D3 /* STImgPickerCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EDA9D1C1E770125008317D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EDA9D001E770124008317D3 /* STImgPickerC */;
+			targetProxy = 9EDA9D1B1E770125008317D3 /* PBXContainerItemProxy */;
+		};
+		9EDA9D271E770125008317D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EDA9D001E770124008317D3 /* STImgPickerC */;
+			targetProxy = 9EDA9D261E770125008317D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9EDA9D0D1E770124008317D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDA9D0E1E770124008317D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9EDA9D121E770124008317D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EDA9D131E770124008317D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EDA9D2C1E770125008317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9EDA9D2D1E770125008317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EDA9D2F1E770125008317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5830F93B301A5A4EE3BCF3D6 /* Pods-STImgPickerC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STImgPickerC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ206321073.STImgPickerC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EDA9D301E770125008317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F1FBB4434AF43A55045ED90 /* Pods-STImgPickerC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STImgPickerC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ206321073.STImgPickerC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9EDA9D321E770125008317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STImgPickerCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ206321073.STImgPickerCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STImgPickerC.app/STImgPickerC";
+			};
+			name = Debug;
+		};
+		9EDA9D331E770125008317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STImgPickerCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ206321073.STImgPickerCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STImgPickerC.app/STImgPickerC";
+			};
+			name = Release;
+		};
+		9EDA9D351E770125008317D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STImgPickerCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ206321073.STImgPickerCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STImgPickerC;
+			};
+			name = Debug;
+		};
+		9EDA9D361E770125008317D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STImgPickerCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = QQ206321073.STImgPickerCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STImgPickerC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EDA9CFC1E770124008317D3 /* Build configuration list for PBXProject "STImgPickerC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDA9D2C1E770125008317D3 /* Debug */,
+				9EDA9D2D1E770125008317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDA9D2E1E770125008317D3 /* Build configuration list for PBXNativeTarget "STImgPickerC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDA9D2F1E770125008317D3 /* Debug */,
+				9EDA9D301E770125008317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDA9D311E770125008317D3 /* Build configuration list for PBXNativeTarget "STImgPickerCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDA9D321E770125008317D3 /* Debug */,
+				9EDA9D331E770125008317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EDA9D341E770125008317D3 /* Build configuration list for PBXNativeTarget "STImgPickerCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EDA9D351E770125008317D3 /* Debug */,
+				9EDA9D361E770125008317D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9EDA9CF91E770124008317D3 /* Project object */;
+}
