@@ -17,18 +17,6 @@
 #pragma mark ------------------------ Third lib
 #import <XXNibBridge.h> //bridge view
 
-#import "STShowBaseViewC.h"
-#import "STShowLogicBaseViewC.h"
-#import "STShowUIBaseViewC.h"
-
-
-#import "STVideoLogicViewC.h"
-#import "STVideoUIViewC.h"
-#import "STVideoViewC.h"
-
-#import "STPhotoLogicViewC.h"
-#import "STPhotoUIViewC.h"
-#import "STPhotoViewC.h"
 
 #pragma mark ------------------------
 
@@ -41,7 +29,6 @@ typedef NS_ENUM(NSUInteger, STSystemPhotoAlbumSelectType) {
 };
 
 
-#import "STCommonHeader.h"
 
 
 

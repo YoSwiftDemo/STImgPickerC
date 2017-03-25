@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "TZImagePickerController.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    TZImagePickerController *imagePickerVc = [[TZImagePickerController alloc] initWithMaxImagesCount:9 delegate:self];
+    
+    [imagePickerVc setDidFinishPickingVideoHandle:^(UIImage *coverImage,id asset) {
+
+    }];
+    [self presentViewController:imagePickerVc animated:YES completion:nil];
 }
 
 

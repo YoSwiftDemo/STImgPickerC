@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		447023A85A15324FF2888752 /* libPods-STImgPickerC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */; };
+		9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */; };
+		9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51ED1E86681B0086AB10 /* STRefresh.m */; };
 		9EDA9D061E770124008317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D051E770124008317D3 /* main.m */; };
 		9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D081E770124008317D3 /* AppDelegate.m */; };
 		9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D0B1E770124008317D3 /* ViewController.m */; };
@@ -40,6 +42,10 @@
 		0F1FBB4434AF43A55045ED90 /* Pods-STImgPickerC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STImgPickerC.release.xcconfig"; path = "Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC.release.xcconfig"; sourceTree = "<group>"; };
 		5830F93B301A5A4EE3BCF3D6 /* Pods-STImgPickerC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STImgPickerC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC.debug.xcconfig"; sourceTree = "<group>"; };
 		9E09054B1E7835D50038AB09 /* STImgPickerCPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImgPickerCPch.pch; sourceTree = "<group>"; };
+		9E4A51E81E865F5F0086AB10 /* STBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseViewC.h; sourceTree = "<group>"; };
+		9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewC.m; sourceTree = "<group>"; };
+		9E4A51EC1E86681B0086AB10 /* STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefresh.h; sourceTree = "<group>"; };
+		9E4A51ED1E86681B0086AB10 /* STRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRefresh.m; sourceTree = "<group>"; };
 		9EDA9D011E770124008317D3 /* STImgPickerC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STImgPickerC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA9D051E770124008317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EDA9D071E770124008317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -115,9 +121,52 @@
 			path = STVideo;
 			sourceTree = "<group>";
 		};
+		9E4A51E41E865EF40086AB10 /* STShowViewC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = STShowViewC;
+			sourceTree = "<group>";
+		};
+		9E4A51E51E865F270086AB10 /* STUI */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A51EB1E8667FB0086AB10 /* STRefresh */,
+				9E4A51E61E865F340086AB10 /* STBase */,
+			);
+			path = STUI;
+			sourceTree = "<group>";
+		};
+		9E4A51E61E865F340086AB10 /* STBase */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A51E71E865F4B0086AB10 /* STBaseViewC */,
+			);
+			path = STBase;
+			sourceTree = "<group>";
+		};
+		9E4A51E71E865F4B0086AB10 /* STBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A51E81E865F5F0086AB10 /* STBaseViewC.h */,
+				9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */,
+			);
+			path = STBaseViewC;
+			sourceTree = "<group>";
+		};
+		9E4A51EB1E8667FB0086AB10 /* STRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A51EC1E86681B0086AB10 /* STRefresh.h */,
+				9E4A51ED1E86681B0086AB10 /* STRefresh.m */,
+			);
+			path = STRefresh;
+			sourceTree = "<group>";
+		};
 		9E675B631E77037200FCEA79 /* STCommon */ = {
 			isa = PBXGroup;
 			children = (
+				9E4A51E51E865F270086AB10 /* STUI */,
 				9EE9FD701E7AE5AE00A1A9A2 /* STCenter */,
 				9EE9FD6F1E7AE59200A1A9A2 /* STTool */,
 			);
@@ -156,6 +205,7 @@
 		9EDA9D031E770124008317D3 /* STImgPickerC */ = {
 			isa = PBXGroup;
 			children = (
+				9E4A51E41E865EF40086AB10 /* STShowViewC */,
 				9E09054A1E7835BA0038AB09 /* STImgPickerCPch */,
 				9E09054D1E783F240038AB09 /* STVideo */,
 				9E09054C1E783F090038AB09 /* STPhoto */,
@@ -409,6 +459,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */,
+				9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */,
 				9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */,
 				9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */,
 				9EDA9D061E770124008317D3 /* main.m in Sources */,
