@@ -1,15 +1,18 @@
 PODS:
   - pop (1.0.9)
+  - TZImagePickerController (1.7.8)
   - XXNibBridge (2.3.1)
 
 DEPENDENCIES:
   - pop
+  - TZImagePickerController
   - XXNibBridge
 
 SPEC CHECKSUMS:
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
   XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
 
-PODFILE CHECKSUM: aa13897c48774a72f2f38f3b638b925dc2cecadf
+PODFILE CHECKSUM: c006eaac35c534bc38356a12011ceac8149dffa2
 
 COCOAPODS: 1.2.0.beta.1
