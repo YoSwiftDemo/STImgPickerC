@@ -1,21 +1,24 @@
 PODS:
   - IQKeyboardManager (4.0.8)
+  - MJRefresh (3.1.12)
   - pop (1.0.9)
   - TZImagePickerController (1.7.8)
   - XXNibBridge (2.3.1)
 
 DEPENDENCIES:
   - IQKeyboardManager
+  - MJRefresh
   - pop
   - TZImagePickerController
   - XXNibBridge
 
 SPEC CHECKSUMS:
   IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   TZImagePickerController: 87a138ae5d585225aaa6c8abe2cface0f0ad19dd
   XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
 
-PODFILE CHECKSUM: 8c80f0733e8b2e491f36ddb6b88d5751285c11af
+PODFILE CHECKSUM: 61ded955228b8ebe5971874f883e3548e69ebee8
 
 COCOAPODS: 1.2.0.beta.1

@@ -7,4 +7,5 @@ pod 'XXNibBridge'
 pod 'pop'
 pod 'TZImagePickerController'
 pod 'IQKeyboardManager'
+pod 'MJRefresh'
 end
