@@ -6,4 +6,5 @@ target 'STImgPickerC' do
 pod 'XXNibBridge'
 pod 'pop'
 pod 'TZImagePickerController'
+pod 'IQKeyboardManager'
 end
