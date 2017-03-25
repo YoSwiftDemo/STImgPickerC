@@ -8,25 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		447023A85A15324FF2888752 /* libPods-STImgPickerC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */; };
-		9E675B691E77044000FCEA79 /* STBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675B681E77044000FCEA79 /* STBaseView.m */; };
-		9E675B6C1E77045200FCEA79 /* STBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675B6B1E77045200FCEA79 /* STBaseViewC.m */; };
-		9E675B761E7705FE00FCEA79 /* STShowLogicBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675B751E7705FE00FCEA79 /* STShowLogicBaseViewC.m */; };
-		9E675B791E77060D00FCEA79 /* STShowUIBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675B781E77060D00FCEA79 /* STShowUIBaseViewC.m */; };
-		9E675C2D1E77089600FCEA79 /* STShowSystemLogicViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C2B1E77089600FCEA79 /* STShowSystemLogicViewC.m */; };
-		9E675C2E1E77089600FCEA79 /* STShowSystemLogicViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C2C1E77089600FCEA79 /* STShowSystemLogicViewC.xib */; };
-		9E675C321E7708B400FCEA79 /* STShowSystemUIViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C301E7708B400FCEA79 /* STShowSystemUIViewC.m */; };
-		9E675C331E7708B400FCEA79 /* STShowSystemUIViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C311E7708B400FCEA79 /* STShowSystemUIViewC.xib */; };
-		9E675C361E7708FC00FCEA79 /* STShowBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C351E7708FC00FCEA79 /* STShowBaseViewC.m */; };
-		9E675C3A1E77093700FCEA79 /* STShowSystemViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C381E77093700FCEA79 /* STShowSystemViewC.m */; };
-		9E675C3B1E77093700FCEA79 /* STShowSystemViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C391E77093700FCEA79 /* STShowSystemViewC.xib */; };
+		9E09055C1E78412B0038AB09 /* STPhotoUIViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E09055A1E78412B0038AB09 /* STPhotoUIViewC.m */; };
+		9E09055D1E78412B0038AB09 /* STPhotoUIViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E09055B1E78412B0038AB09 /* STPhotoUIViewC.xib */; };
+		9E0905611E7841500038AB09 /* STPhotoLogicViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E09055F1E7841500038AB09 /* STPhotoLogicViewC.m */; };
+		9E0905621E7841500038AB09 /* STPhotoLogicViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0905601E7841500038AB09 /* STPhotoLogicViewC.xib */; };
+		9E0905661E7841650038AB09 /* STPhotoViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0905641E7841650038AB09 /* STPhotoViewC.m */; };
+		9E0905671E7841650038AB09 /* STPhotoViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0905651E7841650038AB09 /* STPhotoViewC.xib */; };
+		9E09056B1E7841870038AB09 /* STVideoLogicViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0905691E7841870038AB09 /* STVideoLogicViewC.m */; };
+		9E09056C1E7841870038AB09 /* STVideoLogicViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E09056A1E7841870038AB09 /* STVideoLogicViewC.xib */; };
+		9E0905701E78419A0038AB09 /* STVideoUIViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E09056E1E78419A0038AB09 /* STVideoUIViewC.m */; };
+		9E0905711E78419A0038AB09 /* STVideoUIViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E09056F1E78419A0038AB09 /* STVideoUIViewC.xib */; };
+		9E0905751E7841AC0038AB09 /* STVideoViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0905731E7841AC0038AB09 /* STVideoViewC.m */; };
+		9E0905761E7841AC0038AB09 /* STVideoViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0905741E7841AC0038AB09 /* STVideoViewC.xib */; };
+		9E09057F1E7842D60038AB09 /* STBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E09057E1E7842D60038AB09 /* STBaseView.m */; };
+		9E0905831E7842DC0038AB09 /* STBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0905821E7842DC0038AB09 /* STBaseViewC.m */; };
 		9E675C3F1E77095200FCEA79 /* STShowThirdLogicViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C3D1E77095200FCEA79 /* STShowThirdLogicViewC.m */; };
 		9E675C401E77095200FCEA79 /* STShowThirdLogicViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C3E1E77095200FCEA79 /* STShowThirdLogicViewC.xib */; };
 		9E675C441E77096F00FCEA79 /* STShowThirdUIViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C421E77096F00FCEA79 /* STShowThirdUIViewC.m */; };
 		9E675C451E77096F00FCEA79 /* STShowThirdUIViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C431E77096F00FCEA79 /* STShowThirdUIViewC.xib */; };
 		9E675C531E7709F200FCEA79 /* STShowThirdViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C511E7709F200FCEA79 /* STShowThirdViewC.m */; };
 		9E675C541E7709F200FCEA79 /* STShowThirdViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C521E7709F200FCEA79 /* STShowThirdViewC.xib */; };
-		9E675C581E770B0B00FCEA79 /* STShowPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E675C571E770B0B00FCEA79 /* STShowPhotoView.m */; };
-		9E675C5A1E770B1300FCEA79 /* STShowPhotoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E675C591E770B1300FCEA79 /* STShowPhotoView.xib */; };
 		9EDA9D061E770124008317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D051E770124008317D3 /* main.m */; };
 		9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D081E770124008317D3 /* AppDelegate.m */; };
 		9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D0B1E770124008317D3 /* ViewController.m */; };
@@ -35,6 +36,10 @@
 		9EDA9D141E770124008317D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA9D121E770124008317D3 /* LaunchScreen.storyboard */; };
 		9EDA9D1F1E770125008317D3 /* STImgPickerCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D1E1E770125008317D3 /* STImgPickerCTests.m */; };
 		9EDA9D2A1E770125008317D3 /* STImgPickerCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D291E770125008317D3 /* STImgPickerCUITests.m */; };
+		9EE9FD741E7AE5E800A1A9A2 /* STPhotoAlbumCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9FD731E7AE5E800A1A9A2 /* STPhotoAlbumCenter.m */; };
+		9EE9FD841E7AE83D00A1A9A2 /* STShowBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9FD7D1E7AE83D00A1A9A2 /* STShowBaseViewC.m */; };
+		9EE9FD851E7AE83D00A1A9A2 /* STShowLogicBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9FD801E7AE83D00A1A9A2 /* STShowLogicBaseViewC.m */; };
+		9EE9FD861E7AE83D00A1A9A2 /* STShowUIBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9FD831E7AE83D00A1A9A2 /* STShowUIBaseViewC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,25 +63,30 @@
 		0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STImgPickerC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F1FBB4434AF43A55045ED90 /* Pods-STImgPickerC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STImgPickerC.release.xcconfig"; path = "Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC.release.xcconfig"; sourceTree = "<group>"; };
 		5830F93B301A5A4EE3BCF3D6 /* Pods-STImgPickerC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STImgPickerC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC.debug.xcconfig"; sourceTree = "<group>"; };
-		9E675B671E77044000FCEA79 /* STBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseView.h; sourceTree = "<group>"; };
-		9E675B681E77044000FCEA79 /* STBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseView.m; sourceTree = "<group>"; };
-		9E675B6A1E77045200FCEA79 /* STBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseViewC.h; sourceTree = "<group>"; };
-		9E675B6B1E77045200FCEA79 /* STBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewC.m; sourceTree = "<group>"; };
-		9E675B741E7705FE00FCEA79 /* STShowLogicBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowLogicBaseViewC.h; sourceTree = "<group>"; };
-		9E675B751E7705FE00FCEA79 /* STShowLogicBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowLogicBaseViewC.m; sourceTree = "<group>"; };
-		9E675B771E77060D00FCEA79 /* STShowUIBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowUIBaseViewC.h; sourceTree = "<group>"; };
-		9E675B781E77060D00FCEA79 /* STShowUIBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowUIBaseViewC.m; sourceTree = "<group>"; };
-		9E675C2A1E77089600FCEA79 /* STShowSystemLogicViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowSystemLogicViewC.h; sourceTree = "<group>"; };
-		9E675C2B1E77089600FCEA79 /* STShowSystemLogicViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowSystemLogicViewC.m; sourceTree = "<group>"; };
-		9E675C2C1E77089600FCEA79 /* STShowSystemLogicViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowSystemLogicViewC.xib; sourceTree = "<group>"; };
-		9E675C2F1E7708B400FCEA79 /* STShowSystemUIViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowSystemUIViewC.h; sourceTree = "<group>"; };
-		9E675C301E7708B400FCEA79 /* STShowSystemUIViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowSystemUIViewC.m; sourceTree = "<group>"; };
-		9E675C311E7708B400FCEA79 /* STShowSystemUIViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowSystemUIViewC.xib; sourceTree = "<group>"; };
-		9E675C341E7708FC00FCEA79 /* STShowBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowBaseViewC.h; sourceTree = "<group>"; };
-		9E675C351E7708FC00FCEA79 /* STShowBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowBaseViewC.m; sourceTree = "<group>"; };
-		9E675C371E77093700FCEA79 /* STShowSystemViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowSystemViewC.h; sourceTree = "<group>"; };
-		9E675C381E77093700FCEA79 /* STShowSystemViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowSystemViewC.m; sourceTree = "<group>"; };
-		9E675C391E77093700FCEA79 /* STShowSystemViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowSystemViewC.xib; sourceTree = "<group>"; };
+		9E09054B1E7835D50038AB09 /* STImgPickerCPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImgPickerCPch.pch; sourceTree = "<group>"; };
+		9E0905591E78412B0038AB09 /* STPhotoUIViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoUIViewC.h; sourceTree = "<group>"; };
+		9E09055A1E78412B0038AB09 /* STPhotoUIViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoUIViewC.m; sourceTree = "<group>"; };
+		9E09055B1E78412B0038AB09 /* STPhotoUIViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STPhotoUIViewC.xib; sourceTree = "<group>"; };
+		9E09055E1E7841500038AB09 /* STPhotoLogicViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoLogicViewC.h; sourceTree = "<group>"; };
+		9E09055F1E7841500038AB09 /* STPhotoLogicViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoLogicViewC.m; sourceTree = "<group>"; };
+		9E0905601E7841500038AB09 /* STPhotoLogicViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STPhotoLogicViewC.xib; sourceTree = "<group>"; };
+		9E0905631E7841650038AB09 /* STPhotoViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoViewC.h; sourceTree = "<group>"; };
+		9E0905641E7841650038AB09 /* STPhotoViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoViewC.m; sourceTree = "<group>"; };
+		9E0905651E7841650038AB09 /* STPhotoViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STPhotoViewC.xib; sourceTree = "<group>"; };
+		9E0905681E7841870038AB09 /* STVideoLogicViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STVideoLogicViewC.h; sourceTree = "<group>"; };
+		9E0905691E7841870038AB09 /* STVideoLogicViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STVideoLogicViewC.m; sourceTree = "<group>"; };
+		9E09056A1E7841870038AB09 /* STVideoLogicViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STVideoLogicViewC.xib; sourceTree = "<group>"; };
+		9E09056D1E78419A0038AB09 /* STVideoUIViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STVideoUIViewC.h; sourceTree = "<group>"; };
+		9E09056E1E78419A0038AB09 /* STVideoUIViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STVideoUIViewC.m; sourceTree = "<group>"; };
+		9E09056F1E78419A0038AB09 /* STVideoUIViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STVideoUIViewC.xib; sourceTree = "<group>"; };
+		9E0905721E7841AC0038AB09 /* STVideoViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STVideoViewC.h; sourceTree = "<group>"; };
+		9E0905731E7841AC0038AB09 /* STVideoViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STVideoViewC.m; sourceTree = "<group>"; };
+		9E0905741E7841AC0038AB09 /* STVideoViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STVideoViewC.xib; sourceTree = "<group>"; };
+		9E0905781E7842530038AB09 /* STCommonHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCommonHeader.h; sourceTree = "<group>"; };
+		9E09057D1E7842D60038AB09 /* STBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseView.h; sourceTree = "<group>"; };
+		9E09057E1E7842D60038AB09 /* STBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseView.m; sourceTree = "<group>"; };
+		9E0905811E7842DC0038AB09 /* STBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseViewC.h; sourceTree = "<group>"; };
+		9E0905821E7842DC0038AB09 /* STBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewC.m; sourceTree = "<group>"; };
 		9E675C3C1E77095100FCEA79 /* STShowThirdLogicViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowThirdLogicViewC.h; sourceTree = "<group>"; };
 		9E675C3D1E77095200FCEA79 /* STShowThirdLogicViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowThirdLogicViewC.m; sourceTree = "<group>"; };
 		9E675C3E1E77095200FCEA79 /* STShowThirdLogicViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowThirdLogicViewC.xib; sourceTree = "<group>"; };
@@ -86,9 +96,6 @@
 		9E675C501E7709F200FCEA79 /* STShowThirdViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowThirdViewC.h; sourceTree = "<group>"; };
 		9E675C511E7709F200FCEA79 /* STShowThirdViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowThirdViewC.m; sourceTree = "<group>"; };
 		9E675C521E7709F200FCEA79 /* STShowThirdViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowThirdViewC.xib; sourceTree = "<group>"; };
-		9E675C561E770B0B00FCEA79 /* STShowPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowPhotoView.h; sourceTree = "<group>"; };
-		9E675C571E770B0B00FCEA79 /* STShowPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowPhotoView.m; sourceTree = "<group>"; };
-		9E675C591E770B1300FCEA79 /* STShowPhotoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STShowPhotoView.xib; sourceTree = "<group>"; };
 		9EDA9D011E770124008317D3 /* STImgPickerC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STImgPickerC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA9D051E770124008317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EDA9D071E770124008317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +112,14 @@
 		9EDA9D251E770125008317D3 /* STImgPickerCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STImgPickerCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA9D291E770125008317D3 /* STImgPickerCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STImgPickerCUITests.m; sourceTree = "<group>"; };
 		9EDA9D2B1E770125008317D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE9FD721E7AE5E800A1A9A2 /* STPhotoAlbumCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPhotoAlbumCenter.h; sourceTree = "<group>"; };
+		9EE9FD731E7AE5E800A1A9A2 /* STPhotoAlbumCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPhotoAlbumCenter.m; sourceTree = "<group>"; };
+		9EE9FD7C1E7AE83D00A1A9A2 /* STShowBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowBaseViewC.h; sourceTree = "<group>"; };
+		9EE9FD7D1E7AE83D00A1A9A2 /* STShowBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowBaseViewC.m; sourceTree = "<group>"; };
+		9EE9FD7F1E7AE83D00A1A9A2 /* STShowLogicBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowLogicBaseViewC.h; sourceTree = "<group>"; };
+		9EE9FD801E7AE83D00A1A9A2 /* STShowLogicBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowLogicBaseViewC.m; sourceTree = "<group>"; };
+		9EE9FD821E7AE83D00A1A9A2 /* STShowUIBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STShowUIBaseViewC.h; sourceTree = "<group>"; };
+		9EE9FD831E7AE83D00A1A9A2 /* STShowUIBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STShowUIBaseViewC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +157,150 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		9E09054A1E7835BA0038AB09 /* STImgPickerCPch */ = {
+			isa = PBXGroup;
+			children = (
+				9E09054B1E7835D50038AB09 /* STImgPickerCPch.pch */,
+			);
+			path = STImgPickerCPch;
+			sourceTree = "<group>";
+		};
+		9E09054C1E783F090038AB09 /* STPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				9E0905511E7840F50038AB09 /* STPhotoLogicViewC */,
+				9E0905521E7840F50038AB09 /* STPhotoUIViewC */,
+				9E0905531E7840F50038AB09 /* STPhotoViewC */,
+			);
+			path = STPhoto;
+			sourceTree = "<group>";
+		};
+		9E09054D1E783F240038AB09 /* STVideo */ = {
+			isa = PBXGroup;
+			children = (
+				9E09054E1E78402C0038AB09 /* STVideoLogicViewC */,
+				9E09054F1E78402C0038AB09 /* STVideoUIViewC */,
+				9E0905501E78402C0038AB09 /* STVideoViewC */,
+			);
+			path = STVideo;
+			sourceTree = "<group>";
+		};
+		9E09054E1E78402C0038AB09 /* STVideoLogicViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E0905681E7841870038AB09 /* STVideoLogicViewC.h */,
+				9E0905691E7841870038AB09 /* STVideoLogicViewC.m */,
+				9E09056A1E7841870038AB09 /* STVideoLogicViewC.xib */,
+			);
+			path = STVideoLogicViewC;
+			sourceTree = "<group>";
+		};
+		9E09054F1E78402C0038AB09 /* STVideoUIViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E09056D1E78419A0038AB09 /* STVideoUIViewC.h */,
+				9E09056E1E78419A0038AB09 /* STVideoUIViewC.m */,
+				9E09056F1E78419A0038AB09 /* STVideoUIViewC.xib */,
+			);
+			path = STVideoUIViewC;
+			sourceTree = "<group>";
+		};
+		9E0905501E78402C0038AB09 /* STVideoViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E0905721E7841AC0038AB09 /* STVideoViewC.h */,
+				9E0905731E7841AC0038AB09 /* STVideoViewC.m */,
+				9E0905741E7841AC0038AB09 /* STVideoViewC.xib */,
+			);
+			path = STVideoViewC;
+			sourceTree = "<group>";
+		};
+		9E0905511E7840F50038AB09 /* STPhotoLogicViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E09055E1E7841500038AB09 /* STPhotoLogicViewC.h */,
+				9E09055F1E7841500038AB09 /* STPhotoLogicViewC.m */,
+				9E0905601E7841500038AB09 /* STPhotoLogicViewC.xib */,
+			);
+			path = STPhotoLogicViewC;
+			sourceTree = "<group>";
+		};
+		9E0905521E7840F50038AB09 /* STPhotoUIViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E0905591E78412B0038AB09 /* STPhotoUIViewC.h */,
+				9E09055A1E78412B0038AB09 /* STPhotoUIViewC.m */,
+				9E09055B1E78412B0038AB09 /* STPhotoUIViewC.xib */,
+			);
+			path = STPhotoUIViewC;
+			sourceTree = "<group>";
+		};
+		9E0905531E7840F50038AB09 /* STPhotoViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E0905631E7841650038AB09 /* STPhotoViewC.h */,
+				9E0905641E7841650038AB09 /* STPhotoViewC.m */,
+				9E0905651E7841650038AB09 /* STPhotoViewC.xib */,
+			);
+			path = STPhotoViewC;
+			sourceTree = "<group>";
+		};
+		9E0905771E78423B0038AB09 /* STCommonHeader */ = {
+			isa = PBXGroup;
+			children = (
+				9E0905781E7842530038AB09 /* STCommonHeader.h */,
+			);
+			path = STCommonHeader;
+			sourceTree = "<group>";
+		};
+		9E0905791E7842CA0038AB09 /* STUIBase */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9FD7A1E7AE83D00A1A9A2 /* STShowBase */,
+				9E0905801E7842DC0038AB09 /* STBaseViewC */,
+				9E09057C1E7842D60038AB09 /* STBaseView */,
+			);
+			path = STUIBase;
+			sourceTree = "<group>";
+		};
+		9E09057A1E7842CA0038AB09 /* STUIPhoto */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = STUIPhoto;
+			sourceTree = "<group>";
+		};
+		9E09057B1E7842CA0038AB09 /* STUIVideo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = STUIVideo;
+			sourceTree = "<group>";
+		};
+		9E09057C1E7842D60038AB09 /* STBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				9E09057D1E7842D60038AB09 /* STBaseView.h */,
+				9E09057E1E7842D60038AB09 /* STBaseView.m */,
+			);
+			path = STBaseView;
+			sourceTree = "<group>";
+		};
+		9E0905801E7842DC0038AB09 /* STBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E0905811E7842DC0038AB09 /* STBaseViewC.h */,
+				9E0905821E7842DC0038AB09 /* STBaseViewC.m */,
+			);
+			path = STBaseViewC;
+			sourceTree = "<group>";
+		};
 		9E675B631E77037200FCEA79 /* STCommon */ = {
 			isa = PBXGroup;
 			children = (
+				9EE9FD701E7AE5AE00A1A9A2 /* STCenter */,
+				9EE9FD6F1E7AE59200A1A9A2 /* STTool */,
+				9E0905771E78423B0038AB09 /* STCommonHeader */,
 				9E675B641E7703E300FCEA79 /* STUI */,
 			);
 			path = STCommon;
@@ -153,76 +309,11 @@
 		9E675B641E7703E300FCEA79 /* STUI */ = {
 			isa = PBXGroup;
 			children = (
-				9E675C551E770AF700FCEA79 /* STShowPhotoView */,
-				9E675B661E77042700FCEA79 /* STBaseView */,
-				9E675B651E7703F700FCEA79 /* STBaseViewC */,
+				9E0905791E7842CA0038AB09 /* STUIBase */,
+				9E09057A1E7842CA0038AB09 /* STUIPhoto */,
+				9E09057B1E7842CA0038AB09 /* STUIVideo */,
 			);
 			path = STUI;
-			sourceTree = "<group>";
-		};
-		9E675B651E7703F700FCEA79 /* STBaseViewC */ = {
-			isa = PBXGroup;
-			children = (
-				9E675B6A1E77045200FCEA79 /* STBaseViewC.h */,
-				9E675B6B1E77045200FCEA79 /* STBaseViewC.m */,
-			);
-			path = STBaseViewC;
-			sourceTree = "<group>";
-		};
-		9E675B661E77042700FCEA79 /* STBaseView */ = {
-			isa = PBXGroup;
-			children = (
-				9E675B671E77044000FCEA79 /* STBaseView.h */,
-				9E675B681E77044000FCEA79 /* STBaseView.m */,
-			);
-			path = STBaseView;
-			sourceTree = "<group>";
-		};
-		9E675B6D1E77054200FCEA79 /* STShowBase */ = {
-			isa = PBXGroup;
-			children = (
-				9E675B6E1E77057C00FCEA79 /* STShowBaseViewC */,
-				9E675B6F1E77057C00FCEA79 /* STShowLogicBaseViewC */,
-				9E675B701E77057C00FCEA79 /* STShowUIBaseViewC */,
-			);
-			path = STShowBase;
-			sourceTree = "<group>";
-		};
-		9E675B6E1E77057C00FCEA79 /* STShowBaseViewC */ = {
-			isa = PBXGroup;
-			children = (
-				9E675C341E7708FC00FCEA79 /* STShowBaseViewC.h */,
-				9E675C351E7708FC00FCEA79 /* STShowBaseViewC.m */,
-			);
-			path = STShowBaseViewC;
-			sourceTree = "<group>";
-		};
-		9E675B6F1E77057C00FCEA79 /* STShowLogicBaseViewC */ = {
-			isa = PBXGroup;
-			children = (
-				9E675B741E7705FE00FCEA79 /* STShowLogicBaseViewC.h */,
-				9E675B751E7705FE00FCEA79 /* STShowLogicBaseViewC.m */,
-			);
-			path = STShowLogicBaseViewC;
-			sourceTree = "<group>";
-		};
-		9E675B701E77057C00FCEA79 /* STShowUIBaseViewC */ = {
-			isa = PBXGroup;
-			children = (
-				9E675B771E77060D00FCEA79 /* STShowUIBaseViewC.h */,
-				9E675B781E77060D00FCEA79 /* STShowUIBaseViewC.m */,
-			);
-			path = STShowUIBaseViewC;
-			sourceTree = "<group>";
-		};
-		9E675B7B1E7707AF00FCEA79 /* STShowSystem */ = {
-			isa = PBXGroup;
-			children = (
-				9E675B7D1E7707F800FCEA79 /* STShowSystemLogicViewC */,
-				9E675B7E1E7707F800FCEA79 /* STShowSystemUIViewC */,
-				9E675B7F1E7707F800FCEA79 /* STShowSystemViewC */,
-			);
-			path = STShowSystem;
 			sourceTree = "<group>";
 		};
 		9E675B7C1E7707C300FCEA79 /* STShowThird */ = {
@@ -233,36 +324,6 @@
 				9E675B831E77086A00FCEA79 /* STShowThirdViewC */,
 			);
 			path = STShowThird;
-			sourceTree = "<group>";
-		};
-		9E675B7D1E7707F800FCEA79 /* STShowSystemLogicViewC */ = {
-			isa = PBXGroup;
-			children = (
-				9E675C2A1E77089600FCEA79 /* STShowSystemLogicViewC.h */,
-				9E675C2B1E77089600FCEA79 /* STShowSystemLogicViewC.m */,
-				9E675C2C1E77089600FCEA79 /* STShowSystemLogicViewC.xib */,
-			);
-			path = STShowSystemLogicViewC;
-			sourceTree = "<group>";
-		};
-		9E675B7E1E7707F800FCEA79 /* STShowSystemUIViewC */ = {
-			isa = PBXGroup;
-			children = (
-				9E675C2F1E7708B400FCEA79 /* STShowSystemUIViewC.h */,
-				9E675C301E7708B400FCEA79 /* STShowSystemUIViewC.m */,
-				9E675C311E7708B400FCEA79 /* STShowSystemUIViewC.xib */,
-			);
-			path = STShowSystemUIViewC;
-			sourceTree = "<group>";
-		};
-		9E675B7F1E7707F800FCEA79 /* STShowSystemViewC */ = {
-			isa = PBXGroup;
-			children = (
-				9E675C371E77093700FCEA79 /* STShowSystemViewC.h */,
-				9E675C381E77093700FCEA79 /* STShowSystemViewC.m */,
-				9E675C391E77093700FCEA79 /* STShowSystemViewC.xib */,
-			);
-			path = STShowSystemViewC;
 			sourceTree = "<group>";
 		};
 		9E675B811E77086A00FCEA79 /* STShowThirdLogicViewC */ = {
@@ -295,16 +356,6 @@
 			path = STShowThirdViewC;
 			sourceTree = "<group>";
 		};
-		9E675C551E770AF700FCEA79 /* STShowPhotoView */ = {
-			isa = PBXGroup;
-			children = (
-				9E675C561E770B0B00FCEA79 /* STShowPhotoView.h */,
-				9E675C571E770B0B00FCEA79 /* STShowPhotoView.m */,
-				9E675C591E770B1300FCEA79 /* STShowPhotoView.xib */,
-			);
-			path = STShowPhotoView;
-			sourceTree = "<group>";
-		};
 		9EDA9CF81E770124008317D3 = {
 			isa = PBXGroup;
 			children = (
@@ -330,9 +381,10 @@
 		9EDA9D031E770124008317D3 /* STImgPickerC */ = {
 			isa = PBXGroup;
 			children = (
+				9E09054A1E7835BA0038AB09 /* STImgPickerCPch */,
+				9E09054D1E783F240038AB09 /* STVideo */,
+				9E09054C1E783F090038AB09 /* STPhoto */,
 				9E675B7C1E7707C300FCEA79 /* STShowThird */,
-				9E675B7B1E7707AF00FCEA79 /* STShowSystem */,
-				9E675B6D1E77054200FCEA79 /* STShowBase */,
 				9E675B631E77037200FCEA79 /* STCommon */,
 				9EDA9D071E770124008317D3 /* AppDelegate.h */,
 				9EDA9D081E770124008317D3 /* AppDelegate.m */,
@@ -371,6 +423,67 @@
 				9EDA9D2B1E770125008317D3 /* Info.plist */,
 			);
 			path = STImgPickerCUITests;
+			sourceTree = "<group>";
+		};
+		9EE9FD6F1E7AE59200A1A9A2 /* STTool */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = STTool;
+			sourceTree = "<group>";
+		};
+		9EE9FD701E7AE5AE00A1A9A2 /* STCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9FD711E7AE5D200A1A9A2 /* STPhotoAlbumCenter */,
+			);
+			path = STCenter;
+			sourceTree = "<group>";
+		};
+		9EE9FD711E7AE5D200A1A9A2 /* STPhotoAlbumCenter */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9FD721E7AE5E800A1A9A2 /* STPhotoAlbumCenter.h */,
+				9EE9FD731E7AE5E800A1A9A2 /* STPhotoAlbumCenter.m */,
+			);
+			path = STPhotoAlbumCenter;
+			sourceTree = "<group>";
+		};
+		9EE9FD7A1E7AE83D00A1A9A2 /* STShowBase */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9FD7B1E7AE83D00A1A9A2 /* STShowBaseViewC */,
+				9EE9FD7E1E7AE83D00A1A9A2 /* STShowLogicBaseViewC */,
+				9EE9FD811E7AE83D00A1A9A2 /* STShowUIBaseViewC */,
+			);
+			path = STShowBase;
+			sourceTree = "<group>";
+		};
+		9EE9FD7B1E7AE83D00A1A9A2 /* STShowBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9FD7C1E7AE83D00A1A9A2 /* STShowBaseViewC.h */,
+				9EE9FD7D1E7AE83D00A1A9A2 /* STShowBaseViewC.m */,
+			);
+			path = STShowBaseViewC;
+			sourceTree = "<group>";
+		};
+		9EE9FD7E1E7AE83D00A1A9A2 /* STShowLogicBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9FD7F1E7AE83D00A1A9A2 /* STShowLogicBaseViewC.h */,
+				9EE9FD801E7AE83D00A1A9A2 /* STShowLogicBaseViewC.m */,
+			);
+			path = STShowLogicBaseViewC;
+			sourceTree = "<group>";
+		};
+		9EE9FD811E7AE83D00A1A9A2 /* STShowUIBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9FD821E7AE83D00A1A9A2 /* STShowUIBaseViewC.h */,
+				9EE9FD831E7AE83D00A1A9A2 /* STShowUIBaseViewC.m */,
+			);
+			path = STShowUIBaseViewC;
 			sourceTree = "<group>";
 		};
 		AE585406A722600855FCB311 /* Frameworks */ = {
@@ -493,16 +606,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E675C2E1E77089600FCEA79 /* STShowSystemLogicViewC.xib in Resources */,
 				9EDA9D141E770124008317D3 /* LaunchScreen.storyboard in Resources */,
-				9E675C331E7708B400FCEA79 /* STShowSystemUIViewC.xib in Resources */,
+				9E0905761E7841AC0038AB09 /* STVideoViewC.xib in Resources */,
 				9EDA9D111E770124008317D3 /* Assets.xcassets in Resources */,
 				9EDA9D0F1E770124008317D3 /* Main.storyboard in Resources */,
-				9E675C5A1E770B1300FCEA79 /* STShowPhotoView.xib in Resources */,
+				9E09055D1E78412B0038AB09 /* STPhotoUIViewC.xib in Resources */,
+				9E0905671E7841650038AB09 /* STPhotoViewC.xib in Resources */,
 				9E675C401E77095200FCEA79 /* STShowThirdLogicViewC.xib in Resources */,
+				9E09056C1E7841870038AB09 /* STVideoLogicViewC.xib in Resources */,
+				9E0905621E7841500038AB09 /* STPhotoLogicViewC.xib in Resources */,
+				9E0905711E78419A0038AB09 /* STVideoUIViewC.xib in Resources */,
 				9E675C451E77096F00FCEA79 /* STShowThirdUIViewC.xib in Resources */,
 				9E675C541E7709F200FCEA79 /* STShowThirdViewC.xib in Resources */,
-				9E675C3B1E77093700FCEA79 /* STShowSystemViewC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,21 +690,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E675C321E7708B400FCEA79 /* STShowSystemUIViewC.m in Sources */,
-				9E675C3A1E77093700FCEA79 /* STShowSystemViewC.m in Sources */,
-				9E675B691E77044000FCEA79 /* STBaseView.m in Sources */,
-				9E675C2D1E77089600FCEA79 /* STShowSystemLogicViewC.m in Sources */,
 				9E675C531E7709F200FCEA79 /* STShowThirdViewC.m in Sources */,
-				9E675B6C1E77045200FCEA79 /* STBaseViewC.m in Sources */,
+				9E09055C1E78412B0038AB09 /* STPhotoUIViewC.m in Sources */,
 				9E675C3F1E77095200FCEA79 /* STShowThirdLogicViewC.m in Sources */,
 				9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */,
+				9E09057F1E7842D60038AB09 /* STBaseView.m in Sources */,
 				9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */,
-				9E675C581E770B0B00FCEA79 /* STShowPhotoView.m in Sources */,
-				9E675B791E77060D00FCEA79 /* STShowUIBaseViewC.m in Sources */,
-				9E675C361E7708FC00FCEA79 /* STShowBaseViewC.m in Sources */,
-				9E675B761E7705FE00FCEA79 /* STShowLogicBaseViewC.m in Sources */,
+				9E0905611E7841500038AB09 /* STPhotoLogicViewC.m in Sources */,
+				9E0905831E7842DC0038AB09 /* STBaseViewC.m in Sources */,
+				9E09056B1E7841870038AB09 /* STVideoLogicViewC.m in Sources */,
+				9E0905701E78419A0038AB09 /* STVideoUIViewC.m in Sources */,
+				9E0905661E7841650038AB09 /* STPhotoViewC.m in Sources */,
+				9EE9FD741E7AE5E800A1A9A2 /* STPhotoAlbumCenter.m in Sources */,
 				9EDA9D061E770124008317D3 /* main.m in Sources */,
+				9EE9FD861E7AE83D00A1A9A2 /* STShowUIBaseViewC.m in Sources */,
+				9EE9FD841E7AE83D00A1A9A2 /* STShowBaseViewC.m in Sources */,
+				9EE9FD851E7AE83D00A1A9A2 /* STShowLogicBaseViewC.m in Sources */,
 				9E675C441E77096F00FCEA79 /* STShowThirdUIViewC.m in Sources */,
+				9E0905751E7841AC0038AB09 /* STVideoViewC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -738,6 +856,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BKME25WU4F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/STImgPickerC/STImgPickerCPch/STImgPickerCPch.pch";
 				INFOPLIST_FILE = STImgPickerC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = QQ206321073.STImgPickerC;
@@ -751,6 +871,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BKME25WU4F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/STImgPickerC/STImgPickerCPch/STImgPickerCPch.pch";
 				INFOPLIST_FILE = STImgPickerC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = QQ206321073.STImgPickerC;

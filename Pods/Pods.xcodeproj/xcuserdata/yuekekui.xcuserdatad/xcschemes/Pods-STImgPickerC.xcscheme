@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4CECDBF011601DC5083C7ACDB4F223E7'
+               BlueprintIdentifier = 'BBE1AE5A6602CF11A4BFDFAC4A2E9AB8'
                BlueprintName = 'Pods-STImgPickerC'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-STImgPickerC.a'>
