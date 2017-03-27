@@ -10,6 +10,18 @@
 		447023A85A15324FF2888752 /* libPods-STImgPickerC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */; };
 		9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */; };
 		9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51ED1E86681B0086AB10 /* STRefresh.m */; };
+		9E50A2BC1E8946C300C48947 /* STImgPickerBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2BB1E8946C300C48947 /* STImgPickerBaseViewC.m */; };
+		9E50A2C01E89488D00C48947 /* STPopMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2BF1E89488D00C48947 /* STPopMenuManager.m */; };
+		9E50A2CB1E89499B00C48947 /* HyPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2C31E89499B00C48947 /* HyPopMenuView.m */; };
+		9E50A2CC1E89499B00C48947 /* PopMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2C61E89499B00C48947 /* PopMenuButton.m */; };
+		9E50A2CD1E89499B00C48947 /* PopMenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2C81E89499B00C48947 /* PopMenuModel.m */; };
+		9E50A2CE1E89499B00C48947 /* UIColor+ImageGetColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2CA1E89499B00C48947 /* UIColor+ImageGetColor.m */; };
+		9E50A2DB1E895C1200C48947 /* STSystemPickerShowViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2D91E895C1200C48947 /* STSystemPickerShowViewC.m */; };
+		9E50A2DC1E895C1200C48947 /* STSystemPickerShowViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E50A2DA1E895C1200C48947 /* STSystemPickerShowViewC.xib */; };
+		9E50A2E01E895C8100C48947 /* STBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2DF1E895C8100C48947 /* STBaseView.m */; };
+		9E50A2E41E895E6400C48947 /* STTableViewPickerBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2E31E895E6400C48947 /* STTableViewPickerBaseView.m */; };
+		9E50A2EA1E89614A00C48947 /* STNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2E81E89614A00C48947 /* STNavView.m */; };
+		9E50A2EB1E89614A00C48947 /* STNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E50A2E91E89614A00C48947 /* STNavView.xib */; };
 		9EDA9D061E770124008317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D051E770124008317D3 /* main.m */; };
 		9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D081E770124008317D3 /* AppDelegate.m */; };
 		9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D0B1E770124008317D3 /* ViewController.m */; };
@@ -46,6 +58,29 @@
 		9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewC.m; sourceTree = "<group>"; };
 		9E4A51EC1E86681B0086AB10 /* STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefresh.h; sourceTree = "<group>"; };
 		9E4A51ED1E86681B0086AB10 /* STRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRefresh.m; sourceTree = "<group>"; };
+		9E50A2BA1E8946C300C48947 /* STImgPickerBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImgPickerBaseViewC.h; sourceTree = "<group>"; };
+		9E50A2BB1E8946C300C48947 /* STImgPickerBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImgPickerBaseViewC.m; sourceTree = "<group>"; };
+		9E50A2BE1E89488D00C48947 /* STPopMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopMenuManager.h; sourceTree = "<group>"; };
+		9E50A2BF1E89488D00C48947 /* STPopMenuManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPopMenuManager.m; sourceTree = "<group>"; };
+		9E50A2C21E89499B00C48947 /* HyPopMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyPopMenuView.h; sourceTree = "<group>"; };
+		9E50A2C31E89499B00C48947 /* HyPopMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyPopMenuView.m; sourceTree = "<group>"; };
+		9E50A2C41E89499B00C48947 /* HyPopMenuViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyPopMenuViewDelegate.h; sourceTree = "<group>"; };
+		9E50A2C51E89499B00C48947 /* PopMenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuButton.h; sourceTree = "<group>"; };
+		9E50A2C61E89499B00C48947 /* PopMenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuButton.m; sourceTree = "<group>"; };
+		9E50A2C71E89499B00C48947 /* PopMenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopMenuModel.h; sourceTree = "<group>"; };
+		9E50A2C81E89499B00C48947 /* PopMenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopMenuModel.m; sourceTree = "<group>"; };
+		9E50A2C91E89499B00C48947 /* UIColor+ImageGetColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ImageGetColor.h"; sourceTree = "<group>"; };
+		9E50A2CA1E89499B00C48947 /* UIColor+ImageGetColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ImageGetColor.m"; sourceTree = "<group>"; };
+		9E50A2D81E895C1200C48947 /* STSystemPickerShowViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSystemPickerShowViewC.h; sourceTree = "<group>"; };
+		9E50A2D91E895C1200C48947 /* STSystemPickerShowViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSystemPickerShowViewC.m; sourceTree = "<group>"; };
+		9E50A2DA1E895C1200C48947 /* STSystemPickerShowViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSystemPickerShowViewC.xib; sourceTree = "<group>"; };
+		9E50A2DE1E895C8100C48947 /* STBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseView.h; sourceTree = "<group>"; };
+		9E50A2DF1E895C8100C48947 /* STBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseView.m; sourceTree = "<group>"; };
+		9E50A2E21E895E6400C48947 /* STTableViewPickerBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewPickerBaseView.h; sourceTree = "<group>"; };
+		9E50A2E31E895E6400C48947 /* STTableViewPickerBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewPickerBaseView.m; sourceTree = "<group>"; };
+		9E50A2E71E89614A00C48947 /* STNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNavView.h; sourceTree = "<group>"; };
+		9E50A2E81E89614A00C48947 /* STNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNavView.m; sourceTree = "<group>"; };
+		9E50A2E91E89614A00C48947 /* STNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STNavView.xib; sourceTree = "<group>"; };
 		9EDA9D011E770124008317D3 /* STImgPickerC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STImgPickerC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA9D051E770124008317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EDA9D071E770124008317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +166,8 @@
 		9E4A51E51E865F270086AB10 /* STUI */ = {
 			isa = PBXGroup;
 			children = (
+				9E50A2E51E89613F00C48947 /* STView */,
+				9E50A2C11E89498E00C48947 /* STPopUI */,
 				9E4A51EB1E8667FB0086AB10 /* STRefresh */,
 				9E4A51E61E865F340086AB10 /* STBase */,
 			);
@@ -140,6 +177,9 @@
 		9E4A51E61E865F340086AB10 /* STBase */ = {
 			isa = PBXGroup;
 			children = (
+				9E50A2E11E895E5700C48947 /* STTableViewPickerBaseView */,
+				9E50A2DD1E895C6400C48947 /* STBaseView */,
+				9E50A2B91E8946B400C48947 /* STImgPickerBaseViewC */,
 				9E4A51E71E865F4B0086AB10 /* STBaseViewC */,
 			);
 			path = STBase;
@@ -163,11 +203,98 @@
 			path = STRefresh;
 			sourceTree = "<group>";
 		};
+		9E50A2B91E8946B400C48947 /* STImgPickerBaseViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2BA1E8946C300C48947 /* STImgPickerBaseViewC.h */,
+				9E50A2BB1E8946C300C48947 /* STImgPickerBaseViewC.m */,
+			);
+			path = STImgPickerBaseViewC;
+			sourceTree = "<group>";
+		};
+		9E50A2BD1E89487A00C48947 /* STPopMenuManager */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2BE1E89488D00C48947 /* STPopMenuManager.h */,
+				9E50A2BF1E89488D00C48947 /* STPopMenuManager.m */,
+			);
+			path = STPopMenuManager;
+			sourceTree = "<group>";
+		};
+		9E50A2C11E89498E00C48947 /* STPopUI */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2C21E89499B00C48947 /* HyPopMenuView.h */,
+				9E50A2C31E89499B00C48947 /* HyPopMenuView.m */,
+				9E50A2C41E89499B00C48947 /* HyPopMenuViewDelegate.h */,
+				9E50A2C51E89499B00C48947 /* PopMenuButton.h */,
+				9E50A2C61E89499B00C48947 /* PopMenuButton.m */,
+				9E50A2C71E89499B00C48947 /* PopMenuModel.h */,
+				9E50A2C81E89499B00C48947 /* PopMenuModel.m */,
+				9E50A2C91E89499B00C48947 /* UIColor+ImageGetColor.h */,
+				9E50A2CA1E89499B00C48947 /* UIColor+ImageGetColor.m */,
+			);
+			path = STPopUI;
+			sourceTree = "<group>";
+		};
+		9E50A2D61E895C0C00C48947 /* STSystemPickerShow */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2D71E895C1200C48947 /* STSystemPickerShowViewC */,
+			);
+			path = STSystemPickerShow;
+			sourceTree = "<group>";
+		};
+		9E50A2D71E895C1200C48947 /* STSystemPickerShowViewC */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2D81E895C1200C48947 /* STSystemPickerShowViewC.h */,
+				9E50A2D91E895C1200C48947 /* STSystemPickerShowViewC.m */,
+				9E50A2DA1E895C1200C48947 /* STSystemPickerShowViewC.xib */,
+			);
+			path = STSystemPickerShowViewC;
+			sourceTree = "<group>";
+		};
+		9E50A2DD1E895C6400C48947 /* STBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2DE1E895C8100C48947 /* STBaseView.h */,
+				9E50A2DF1E895C8100C48947 /* STBaseView.m */,
+			);
+			path = STBaseView;
+			sourceTree = "<group>";
+		};
+		9E50A2E11E895E5700C48947 /* STTableViewPickerBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2E21E895E6400C48947 /* STTableViewPickerBaseView.h */,
+				9E50A2E31E895E6400C48947 /* STTableViewPickerBaseView.m */,
+			);
+			path = STTableViewPickerBaseView;
+			sourceTree = "<group>";
+		};
+		9E50A2E51E89613F00C48947 /* STView */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2E61E89614A00C48947 /* STNavView */,
+			);
+			path = STView;
+			sourceTree = "<group>";
+		};
+		9E50A2E61E89614A00C48947 /* STNavView */ = {
+			isa = PBXGroup;
+			children = (
+				9E50A2E71E89614A00C48947 /* STNavView.h */,
+				9E50A2E81E89614A00C48947 /* STNavView.m */,
+				9E50A2E91E89614A00C48947 /* STNavView.xib */,
+			);
+			path = STNavView;
+			sourceTree = "<group>";
+		};
 		9E675B631E77037200FCEA79 /* STCommon */ = {
 			isa = PBXGroup;
 			children = (
 				9E4A51E51E865F270086AB10 /* STUI */,
-				9EE9FD701E7AE5AE00A1A9A2 /* STCenter */,
 				9EE9FD6F1E7AE59200A1A9A2 /* STTool */,
 			);
 			path = STCommon;
@@ -205,6 +332,8 @@
 		9EDA9D031E770124008317D3 /* STImgPickerC */ = {
 			isa = PBXGroup;
 			children = (
+				9E50A2D61E895C0C00C48947 /* STSystemPickerShow */,
+				9E50A2BD1E89487A00C48947 /* STPopMenuManager */,
 				9E4A51E41E865EF40086AB10 /* STShowViewC */,
 				9E09054A1E7835BA0038AB09 /* STImgPickerCPch */,
 				9E09054D1E783F240038AB09 /* STVideo */,
@@ -255,13 +384,6 @@
 			children = (
 			);
 			path = STTool;
-			sourceTree = "<group>";
-		};
-		9EE9FD701E7AE5AE00A1A9A2 /* STCenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = STCenter;
 			sourceTree = "<group>";
 		};
 		AE585406A722600855FCB311 /* Frameworks */ = {
@@ -385,8 +507,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EDA9D141E770124008317D3 /* LaunchScreen.storyboard in Resources */,
+				9E50A2DC1E895C1200C48947 /* STSystemPickerShowViewC.xib in Resources */,
 				9EDA9D111E770124008317D3 /* Assets.xcassets in Resources */,
 				9EDA9D0F1E770124008317D3 /* Main.storyboard in Resources */,
+				9E50A2EB1E89614A00C48947 /* STNavView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,11 +583,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E50A2C01E89488D00C48947 /* STPopMenuManager.m in Sources */,
+				9E50A2DB1E895C1200C48947 /* STSystemPickerShowViewC.m in Sources */,
+				9E50A2E41E895E6400C48947 /* STTableViewPickerBaseView.m in Sources */,
 				9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */,
+				9E50A2CC1E89499B00C48947 /* PopMenuButton.m in Sources */,
+				9E50A2CB1E89499B00C48947 /* HyPopMenuView.m in Sources */,
+				9E50A2EA1E89614A00C48947 /* STNavView.m in Sources */,
+				9E50A2E01E895C8100C48947 /* STBaseView.m in Sources */,
+				9E50A2CD1E89499B00C48947 /* PopMenuModel.m in Sources */,
 				9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */,
 				9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */,
 				9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */,
+				9E50A2BC1E8946C300C48947 /* STImgPickerBaseViewC.m in Sources */,
 				9EDA9D061E770124008317D3 /* main.m in Sources */,
+				9E50A2CE1E89499B00C48947 /* UIColor+ImageGetColor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

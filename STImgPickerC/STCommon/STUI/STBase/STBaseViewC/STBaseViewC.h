@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <IQKeyboardManager.h>
 #import "STRefresh.h"
-#pragma mark - 转场方式
+#pragma mark - Transition Type
 typedef NS_ENUM(NSUInteger, STViewCTransitionType) {
     STViewCTransitionTypeOfPush       = 0,  // psuh
     STViewCTransitionTypeOfModal      = 1,  // Model
@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, STViewCTransitionType) {
 };
 @interface STBaseViewC : UIViewController
 
-#pragma mark *************************** property **************************
+#pragma mark *************************** Property **************************
 @property(nonatomic,strong)  UIViewController           *recordSuperViewC;
 @property(nonatomic,strong)  UIViewController           *recordLogicViewC;
 @property(nonatomic,strong)  UIViewController           *recordUIViewC;

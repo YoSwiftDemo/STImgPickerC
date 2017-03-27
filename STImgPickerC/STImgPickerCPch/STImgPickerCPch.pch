@@ -30,15 +30,15 @@ typedef NS_ENUM(NSUInteger, STSystemPhotoAlbumSelectType) {
 
 
 
+#import "STImgPickerBaseViewC.h"
+
+#import "STPopMenuManager.h"
 
 
+#import "HyPopMenuView.h"
 
 
-
-
-
-
-
+#import "STNavView.h"
 
 
 
