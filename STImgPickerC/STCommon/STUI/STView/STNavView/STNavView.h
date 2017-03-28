@@ -8,9 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "STBaseView.h"
+@class STNavView;
 @protocol STNavViewDelegate<NSObject>
 @optional
--(void)showLeftBtnEventResponseOfSTNavView;
+-(void)showLeftBtnEventResponseOfSTNavView:(STNavView *)stNavView;
+-(void)showRightBtnEventResponseOfSTNavView:(STNavView *)stNavView;
 @end
 @interface STNavView : STBaseView<XXNibBridge>
 @property (weak, nonatomic) IBOutlet UIButton  *leftBtn;

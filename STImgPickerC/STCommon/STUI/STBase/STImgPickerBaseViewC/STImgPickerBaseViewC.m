@@ -7,8 +7,9 @@
 //
 
 #import "STImgPickerBaseViewC.h"
-
-@interface STImgPickerBaseViewC ()
+#import <Photos/Photos.h>
+#import <MediaPlayer/MediaPlayer.h>
+@interface STImgPickerBaseViewC ()<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
 @end
 
@@ -23,15 +24,26 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+#pragma mark ------------------------- System
+-(void)showSystemImgPickerC{
+     UIImagePickerController *imgPickerCtrl = [[UIImagePickerController alloc] init];
+    imgPickerCtrl.delegate = self;
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypePhotoLibrary] == YES) {
+        
+        imgPickerCtrl.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
 
-/*
-#pragma mark - Navigation
+        //弹出模态
+        [self presentViewController:imgPickerCtrl animated:YES
+                         completion:^{
+                             
+                         }];
+        
+    }else{
+        
+       
+        return;
+    }
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
-*/
 
 @end

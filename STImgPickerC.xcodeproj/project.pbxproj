@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		447023A85A15324FF2888752 /* libPods-STImgPickerC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */; };
+		9E0A8B7E1E8A7BB900EC0181 /* STNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A8B7D1E8A7BB900EC0181 /* STNavView.xib */; };
+		9E0A8B821E8A7EA500EC0181 /* STSystemPickerShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A8B811E8A7EA500EC0181 /* STSystemPickerShowView.m */; };
+		9E0A8B901E8A803000EC0181 /* STTableBtnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A8B8E1E8A803000EC0181 /* STTableBtnCell.m */; };
+		9E0A8B911E8A803000EC0181 /* STTableBtnCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A8B8F1E8A803000EC0181 /* STTableBtnCell.xib */; };
+		9E0A8B931E8A909400EC0181 /* STSystemPickerShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A8B921E8A909400EC0181 /* STSystemPickerShowView.xib */; };
 		9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */; };
 		9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51ED1E86681B0086AB10 /* STRefresh.m */; };
 		9E50A2BC1E8946C300C48947 /* STImgPickerBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2BB1E8946C300C48947 /* STImgPickerBaseViewC.m */; };
@@ -30,7 +35,6 @@
 		9EDA9D2A1E770125008317D3 /* STImgPickerCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D291E770125008317D3 /* STImgPickerCUITests.m */; };
 		9EE7F8F91E8A5A6F00A23D89 /* STTableViewBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7F8F81E8A5A6F00A23D89 /* STTableViewBaseView.m */; };
 		9EE7F8FC1E8A5A9000A23D89 /* STTableViewBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7F8FB1E8A5A9000A23D89 /* STTableViewBaseCell.m */; };
-		9EE7F9001E8A5BDA00A23D89 /* STNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE7F8FF1E8A5BDA00A23D89 /* STNavView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,13 @@
 		0F1FBB4434AF43A55045ED90 /* Pods-STImgPickerC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STImgPickerC.release.xcconfig"; path = "Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC.release.xcconfig"; sourceTree = "<group>"; };
 		5830F93B301A5A4EE3BCF3D6 /* Pods-STImgPickerC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STImgPickerC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STImgPickerC/Pods-STImgPickerC.debug.xcconfig"; sourceTree = "<group>"; };
 		9E09054B1E7835D50038AB09 /* STImgPickerCPch.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImgPickerCPch.pch; sourceTree = "<group>"; };
+		9E0A8B7D1E8A7BB900EC0181 /* STNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STNavView.xib; sourceTree = "<group>"; };
+		9E0A8B801E8A7EA500EC0181 /* STSystemPickerShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSystemPickerShowView.h; sourceTree = "<group>"; };
+		9E0A8B811E8A7EA500EC0181 /* STSystemPickerShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSystemPickerShowView.m; sourceTree = "<group>"; };
+		9E0A8B8D1E8A803000EC0181 /* STTableBtnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableBtnCell.h; sourceTree = "<group>"; };
+		9E0A8B8E1E8A803000EC0181 /* STTableBtnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableBtnCell.m; sourceTree = "<group>"; };
+		9E0A8B8F1E8A803000EC0181 /* STTableBtnCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STTableBtnCell.xib; sourceTree = "<group>"; };
+		9E0A8B921E8A909400EC0181 /* STSystemPickerShowView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSystemPickerShowView.xib; sourceTree = "<group>"; };
 		9E4A51E81E865F5F0086AB10 /* STBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseViewC.h; sourceTree = "<group>"; };
 		9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewC.m; sourceTree = "<group>"; };
 		9E4A51EC1E86681B0086AB10 /* STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefresh.h; sourceTree = "<group>"; };
@@ -99,7 +110,6 @@
 		9EE7F8F81E8A5A6F00A23D89 /* STTableViewBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewBaseView.m; sourceTree = "<group>"; };
 		9EE7F8FA1E8A5A9000A23D89 /* STTableViewBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewBaseCell.h; sourceTree = "<group>"; };
 		9EE7F8FB1E8A5A9000A23D89 /* STTableViewBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewBaseCell.m; sourceTree = "<group>"; };
-		9EE7F8FF1E8A5BDA00A23D89 /* STNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = STNavView.xib; path = ../../../../../../../Desktop/STNavView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,18 +155,32 @@
 			path = STImgPickerCPch;
 			sourceTree = "<group>";
 		};
-		9E09054C1E783F090038AB09 /* STPhoto */ = {
+		9E0A8B7F1E8A7E8600EC0181 /* STSystemPickerShowView */ = {
 			isa = PBXGroup;
 			children = (
+				9E0A8B801E8A7EA500EC0181 /* STSystemPickerShowView.h */,
+				9E0A8B811E8A7EA500EC0181 /* STSystemPickerShowView.m */,
+				9E0A8B921E8A909400EC0181 /* STSystemPickerShowView.xib */,
 			);
-			path = STPhoto;
+			path = STSystemPickerShowView;
 			sourceTree = "<group>";
 		};
-		9E09054D1E783F240038AB09 /* STVideo */ = {
+		9E0A8B851E8A7F3900EC0181 /* STTableCell */ = {
 			isa = PBXGroup;
 			children = (
+				9E0A8B8C1E8A802400EC0181 /* STTableBtnCell */,
 			);
-			path = STVideo;
+			path = STTableCell;
+			sourceTree = "<group>";
+		};
+		9E0A8B8C1E8A802400EC0181 /* STTableBtnCell */ = {
+			isa = PBXGroup;
+			children = (
+				9E0A8B8D1E8A803000EC0181 /* STTableBtnCell.h */,
+				9E0A8B8E1E8A803000EC0181 /* STTableBtnCell.m */,
+				9E0A8B8F1E8A803000EC0181 /* STTableBtnCell.xib */,
+			);
+			path = STTableBtnCell;
 			sourceTree = "<group>";
 		};
 		9E4A51E41E865EF40086AB10 /* STShowViewC */ = {
@@ -169,6 +193,7 @@
 		9E4A51E51E865F270086AB10 /* STUI */ = {
 			isa = PBXGroup;
 			children = (
+				9E0A8B851E8A7F3900EC0181 /* STTableCell */,
 				9E50A2E51E89613F00C48947 /* STView */,
 				9E50A2C11E89498E00C48947 /* STPopUI */,
 				9E4A51EB1E8667FB0086AB10 /* STRefresh */,
@@ -243,6 +268,7 @@
 		9E50A2D61E895C0C00C48947 /* STSystemPickerShow */ = {
 			isa = PBXGroup;
 			children = (
+				9E0A8B7F1E8A7E8600EC0181 /* STSystemPickerShowView */,
 				9E50A2D71E895C1200C48947 /* STSystemPickerShowViewC */,
 			);
 			path = STSystemPickerShow;
@@ -278,9 +304,9 @@
 		9E50A2E61E89614A00C48947 /* STNavView */ = {
 			isa = PBXGroup;
 			children = (
-				9EE7F8FF1E8A5BDA00A23D89 /* STNavView.xib */,
 				9E50A2E71E89614A00C48947 /* STNavView.h */,
 				9E50A2E81E89614A00C48947 /* STNavView.m */,
+				9E0A8B7D1E8A7BB900EC0181 /* STNavView.xib */,
 			);
 			path = STNavView;
 			sourceTree = "<group>";
@@ -292,13 +318,6 @@
 				9EE9FD6F1E7AE59200A1A9A2 /* STTool */,
 			);
 			path = STCommon;
-			sourceTree = "<group>";
-		};
-		9E675B7C1E7707C300FCEA79 /* STShowThird */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = STShowThird;
 			sourceTree = "<group>";
 		};
 		9EDA9CF81E770124008317D3 = {
@@ -330,9 +349,6 @@
 				9E50A2BD1E89487A00C48947 /* STPopMenuManager */,
 				9E4A51E41E865EF40086AB10 /* STShowViewC */,
 				9E09054A1E7835BA0038AB09 /* STImgPickerCPch */,
-				9E09054D1E783F240038AB09 /* STVideo */,
-				9E09054C1E783F090038AB09 /* STPhoto */,
-				9E675B7C1E7707C300FCEA79 /* STShowThird */,
 				9E675B631E77037200FCEA79 /* STCommon */,
 				9EDA9D071E770124008317D3 /* AppDelegate.h */,
 				9EDA9D081E770124008317D3 /* AppDelegate.m */,
@@ -527,11 +543,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0A8B911E8A803000EC0181 /* STTableBtnCell.xib in Resources */,
 				9EDA9D141E770124008317D3 /* LaunchScreen.storyboard in Resources */,
 				9E50A2DC1E895C1200C48947 /* STSystemPickerShowViewC.xib in Resources */,
+				9E0A8B931E8A909400EC0181 /* STSystemPickerShowView.xib in Resources */,
 				9EDA9D111E770124008317D3 /* Assets.xcassets in Resources */,
 				9EDA9D0F1E770124008317D3 /* Main.storyboard in Resources */,
-				9EE7F9001E8A5BDA00A23D89 /* STNavView.xib in Resources */,
+				9E0A8B7E1E8A7BB900EC0181 /* STNavView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -614,9 +632,11 @@
 				9E50A2EA1E89614A00C48947 /* STNavView.m in Sources */,
 				9E50A2E01E895C8100C48947 /* STBaseView.m in Sources */,
 				9E50A2CD1E89499B00C48947 /* PopMenuModel.m in Sources */,
+				9E0A8B901E8A803000EC0181 /* STTableBtnCell.m in Sources */,
 				9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */,
 				9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */,
 				9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */,
+				9E0A8B821E8A7EA500EC0181 /* STSystemPickerShowView.m in Sources */,
 				9E50A2BC1E8946C300C48947 /* STImgPickerBaseViewC.m in Sources */,
 				9EDA9D061E770124008317D3 /* main.m in Sources */,
 				9E50A2CE1E89499B00C48947 /* UIColor+ImageGetColor.m in Sources */,

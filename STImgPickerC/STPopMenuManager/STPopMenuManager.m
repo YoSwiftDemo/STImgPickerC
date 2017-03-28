@@ -1,4 +1,4 @@
-//
+ //
 //  STPopMenuManager.m
 //  STImgPickerC
 //
@@ -7,7 +7,7 @@
 //
 
 #import "STPopMenuManager.h"
-
+#import "STSystemPickerShowViewC.h"
 @implementation STPopMenuManager
 #pragma mark ************************** Left Cycle ***************************
 /**
@@ -53,7 +53,7 @@ static STPopMenuManager *signleton = nil;
     }
     switch (index) {
         case 0:
-            //商品动态
+            [self showSTSystemViewC];
             break;
         case 1:
             //红包动态
@@ -94,7 +94,28 @@ static STPopMenuManager *signleton = nil;
 }
 #pragma mark ------ show STSystem select img/Videxo ViewC
 -(void)showSTSystemViewC{
+    STSystemPickerShowViewC *stSystemPickerShowViewC = (STSystemPickerShowViewC *)[STSystemPickerShowViewC showSTBaseViewCOnSuperViewC:nil
+                                                                                                                          andFrameRect:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT)
+                                                                                                              andSTViewCTransitionType:STViewCTransitionTypeOfPush
+                                                                                                                           andComplete:^(BOOL finished,
+                                                                                                                                         STBaseViewC *stBaseViewC) {
+        
+    }];
+    if (!stSystemPickerShowViewC) {
+        return;
+    }
     
+    
+       stSystemPickerShowViewC.stSystemPickerShowView = [stSystemPickerShowViewC stSystemPickerShowView];
+    [stSystemPickerShowViewC showSTRefreshTableView: [stSystemPickerShowViewC.stSystemPickerShowView tableView]
+                                   andSTRefreshType:STRefreshTypeDefault
+                             andSTRefreshHeaderType:STRefreshHeaderTypeNormal
+                          andSTRefreshTimeLabHidden:NO
+                         andSTRefreshStateLabHidden:NO];
+       [stSystemPickerShowViewC.stSystemPickerShowView setDataSoureArray:@[@"photo",@"video",@"UplaodToOSS"].mutableCopy];
+    UINavigationController *nav =  [[UINavigationController alloc]initWithRootViewController:stSystemPickerShowViewC];
+    nav.navigationBarHidden = YES;
+    [UIApplication sharedApplication].keyWindow.rootViewController = nav;
 }
 #pragma mark ------ show STThird select img/Videxo ViewC
 -(void)showSTThirdViewC{

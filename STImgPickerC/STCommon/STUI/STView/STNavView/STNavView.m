@@ -23,12 +23,15 @@
                                                to:nil
                                              from:nil
                                          forEvent:nil];
-    if(_delegate && [_delegate respondsToSelector:@selector(showLeftBtnEventResponseOfSTNavView)]){
-        [_delegate showLeftBtnEventResponseOfSTNavView];
+    if(_delegate && [_delegate respondsToSelector:@selector(showLeftBtnEventResponseOfSTNavView:)]){
+        [_delegate showLeftBtnEventResponseOfSTNavView:self];
     }
 }
 
 - (IBAction)rightBtnClick:(id)sender {
+    if(_delegate && [_delegate respondsToSelector:@selector(showRightBtnEventResponseOfSTNavView:)]){
+        [_delegate showRightBtnEventResponseOfSTNavView:self];
+    }
 }
 #pragma mark *************************** Plublic ****************************
 #pragma mark ------new View
@@ -37,15 +40,15 @@
  *
  * @attention: 1. base class declaration 2.subclass implementation、
  */
-+(STBaseView *)showSTUIBridgeViewOnSuperView:(UIView *)superView
-                                andFrameRect:(CGRect)frameRect
-                                 andComplete:(void(^)(BOOL finished,
-                                                      STBaseView *stBaseView))block{
-    if (block) {
-        block(YES,nil);
-    }
-    return nil;
-}
+//+(STBaseView *)showSTUIBridgeViewOnSuperView:(UIView *)superView
+//                                andFrameRect:(CGRect)frameRect
+//                                 andComplete:(void(^)(BOOL finished,
+//                                                      STBaseView *stBaseView))block{
+//    if (block) {
+//        block(YES,nil);
+//    }
+//    return nil;
+//}
 
 
 @end

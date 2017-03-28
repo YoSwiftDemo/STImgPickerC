@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface STTableViewBaseCell : UITableViewCell
-
++(instancetype)showCellWithTableView:(UITableView *)tableView forIndexPath:(NSIndexPath *)indexPath;
 @end

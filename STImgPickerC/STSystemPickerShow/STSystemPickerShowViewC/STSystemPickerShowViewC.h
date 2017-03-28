@@ -7,7 +7,7 @@
 //
 
 #import "STImgPickerBaseViewC.h"
-
+#import "STSystemPickerShowView.h"
 @interface STSystemPickerShowViewC : STImgPickerBaseViewC
-
+@property(nonatomic,strong)STSystemPickerShowView *stSystemPickerShowView;
 @end

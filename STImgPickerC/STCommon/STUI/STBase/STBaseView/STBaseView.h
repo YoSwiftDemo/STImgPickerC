@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STBaseView : UIView<XXNibBridge>
+@interface STBaseView : UIView
 #pragma mark *************************** Property **************************
 @property (nonatomic ,strong)UIView           *recordSupreView;
 @property (nonatomic ,strong)UIViewController *recordSupreViewC;

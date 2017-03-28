@@ -12,4 +12,5 @@
 
 @property (nonatomic ,strong)NSMutableArray <UIImage *>*recordSelectImgMArray;  // record select img in mArray
 @property (nonatomic ,strong)NSMutableArray <NSData *>*recordSelectVideoMArray; // record Video of nsdata in mArray
+-(void)showSystemImgPickerC;
 @end

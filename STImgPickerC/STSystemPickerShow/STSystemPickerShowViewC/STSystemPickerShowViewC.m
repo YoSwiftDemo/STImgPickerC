@@ -8,7 +8,7 @@
 
 #import "STSystemPickerShowViewC.h"
 
-@interface STSystemPickerShowViewC ()
+@interface STSystemPickerShowViewC ()<STTableViewBaseViewDelegate,STNavViewDelegate>
 
 @end
 
@@ -33,5 +33,42 @@
     // Pass the selected object to the new view controller.
 }
 */
+-(STSystemPickerShowView *)stSystemPickerShowView{
+    if (!_stSystemPickerShowView) {
+        _stSystemPickerShowView = (STSystemPickerShowView *) [STSystemPickerShowView showSTUIBridgeViewOnSuperView:self.view andFrameRect:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) andComplete:^(BOOL finished, STBaseView *stBaseView) {
+            
+        }];
+        _stSystemPickerShowView.backgroundColor = [UIColor redColor];
+        [_stSystemPickerShowView setBaseDelegate:self];
+        [_stSystemPickerShowView.stNavView setDelegate:self];
+        _stSystemPickerShowView.stNavView.leftBtn.hidden = NO;
+        [_stSystemPickerShowView.stNavView.leftBtn  setTitle:@"back"
+                                                    forState:UIControlStateNormal];
+        [_stSystemPickerShowView.stNavView.leftBtn setTitleColor:[UIColor redColor]
+                                                         forState:UIControlStateNormal];
+    }
+    return _stSystemPickerShowView;
+}
+#pragma mark **************************** Delegate  *********************
+#pragma mark -----------<STTableViewBaseViewDelegate>
+#pragma mark --tableview did select
+-(void)showTableViewDidSelectIndexpath:(NSIndexPath *)indexPath andSTTableViewBaseView:(STTableViewBaseView *)stTableViewBaseView{
+    if (indexPath.section == 0) {
+        [self showSystemImgPickerC];
+    }
+}
+#pragma mark -----------<STNavViewDelegate>
+#pragma mark -- leftBtn
+-(void)showLeftBtnEventResponseOfSTNavView:(STNavView *)stNavView{
+    
+}
 
+#pragma mark **************************** API **************************
+-(void)showAPIDataAndComplete:(void (^)(BOOL))block{
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        if (block) {
+            block(YES);
+        }
+    });
+}
 @end

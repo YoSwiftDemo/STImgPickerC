@@ -34,20 +34,21 @@
         }
     }
     //③new
-    STBaseView *stBaseView = [[[NSBundle mainBundle]loadNibNamed:@"STBaseView"
+    STBaseView *newViewC = [[[NSBundle mainBundle]loadNibNamed:NSStringFromClass([self class])
                                                            owner:nil
                                                          options:nil]firstObject];
+    
     //④frame
-    [stBaseView setFrame:superView.frame];
-    stBaseView.frame = frameRect;
+    //[stBaseView setFrame:superView.frame];
+    newViewC.frame = frameRect;
     //⑤ child
-    [superView addSubview:stBaseView];
+    [superView addSubview:newViewC];
     //⑥ record
-    stBaseView.recordSupreView = superView;
+    newViewC.recordSupreView = superView;
     //⑦ return、block
     if (block) {
-        block(YES,nil);
+        block(YES,newViewC);
     }
-    return nil;
+    return newViewC;
 }
 @end
