@@ -30,5 +30,22 @@
 
 - (IBAction)rightBtnClick:(id)sender {
 }
+#pragma mark *************************** Plublic ****************************
+#pragma mark ------new View
+/**
+ * @brief:  new View "+" methods
+ *
+ * @attention: 1. base class declaration 2.subclass implementation、
+ */
++(STBaseView *)showSTUIBridgeViewOnSuperView:(UIView *)superView
+                                andFrameRect:(CGRect)frameRect
+                                 andComplete:(void(^)(BOOL finished,
+                                                      STBaseView *stBaseView))block{
+    if (block) {
+        block(YES,nil);
+    }
+    return nil;
+}
+
 
 @end

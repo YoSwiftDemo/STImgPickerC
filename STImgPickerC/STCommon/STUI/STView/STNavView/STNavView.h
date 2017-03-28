@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "STBaseView.h"
 @protocol STNavViewDelegate<NSObject>
 @optional
 -(void)showLeftBtnEventResponseOfSTNavView;
 @end
-@interface STNavView : UIView<XXNibBridge>
+@interface STNavView : STBaseView<XXNibBridge>
 @property (weak, nonatomic) IBOutlet UIButton  *leftBtn;
 @property (weak, nonatomic) IBOutlet UIButton  *rightBtn;
 @property (weak, nonatomic) IBOutlet UIView    *sparatorView;//分割线

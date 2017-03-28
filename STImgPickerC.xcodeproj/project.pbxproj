@@ -19,9 +19,7 @@
 		9E50A2DB1E895C1200C48947 /* STSystemPickerShowViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2D91E895C1200C48947 /* STSystemPickerShowViewC.m */; };
 		9E50A2DC1E895C1200C48947 /* STSystemPickerShowViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E50A2DA1E895C1200C48947 /* STSystemPickerShowViewC.xib */; };
 		9E50A2E01E895C8100C48947 /* STBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2DF1E895C8100C48947 /* STBaseView.m */; };
-		9E50A2E41E895E6400C48947 /* STTableViewPickerBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2E31E895E6400C48947 /* STTableViewPickerBaseView.m */; };
 		9E50A2EA1E89614A00C48947 /* STNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2E81E89614A00C48947 /* STNavView.m */; };
-		9E50A2EB1E89614A00C48947 /* STNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E50A2E91E89614A00C48947 /* STNavView.xib */; };
 		9EDA9D061E770124008317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D051E770124008317D3 /* main.m */; };
 		9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D081E770124008317D3 /* AppDelegate.m */; };
 		9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D0B1E770124008317D3 /* ViewController.m */; };
@@ -30,6 +28,9 @@
 		9EDA9D141E770124008317D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EDA9D121E770124008317D3 /* LaunchScreen.storyboard */; };
 		9EDA9D1F1E770125008317D3 /* STImgPickerCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D1E1E770125008317D3 /* STImgPickerCTests.m */; };
 		9EDA9D2A1E770125008317D3 /* STImgPickerCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D291E770125008317D3 /* STImgPickerCUITests.m */; };
+		9EE7F8F91E8A5A6F00A23D89 /* STTableViewBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7F8F81E8A5A6F00A23D89 /* STTableViewBaseView.m */; };
+		9EE7F8FC1E8A5A9000A23D89 /* STTableViewBaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7F8FB1E8A5A9000A23D89 /* STTableViewBaseCell.m */; };
+		9EE7F9001E8A5BDA00A23D89 /* STNavView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EE7F8FF1E8A5BDA00A23D89 /* STNavView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,11 +77,8 @@
 		9E50A2DA1E895C1200C48947 /* STSystemPickerShowViewC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STSystemPickerShowViewC.xib; sourceTree = "<group>"; };
 		9E50A2DE1E895C8100C48947 /* STBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STBaseView.h; sourceTree = "<group>"; };
 		9E50A2DF1E895C8100C48947 /* STBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseView.m; sourceTree = "<group>"; };
-		9E50A2E21E895E6400C48947 /* STTableViewPickerBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewPickerBaseView.h; sourceTree = "<group>"; };
-		9E50A2E31E895E6400C48947 /* STTableViewPickerBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewPickerBaseView.m; sourceTree = "<group>"; };
 		9E50A2E71E89614A00C48947 /* STNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNavView.h; sourceTree = "<group>"; };
 		9E50A2E81E89614A00C48947 /* STNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNavView.m; sourceTree = "<group>"; };
-		9E50A2E91E89614A00C48947 /* STNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = STNavView.xib; sourceTree = "<group>"; };
 		9EDA9D011E770124008317D3 /* STImgPickerC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STImgPickerC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA9D051E770124008317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EDA9D071E770124008317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,6 +95,11 @@
 		9EDA9D251E770125008317D3 /* STImgPickerCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STImgPickerCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA9D291E770125008317D3 /* STImgPickerCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STImgPickerCUITests.m; sourceTree = "<group>"; };
 		9EDA9D2B1E770125008317D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EE7F8F71E8A5A6F00A23D89 /* STTableViewBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewBaseView.h; sourceTree = "<group>"; };
+		9EE7F8F81E8A5A6F00A23D89 /* STTableViewBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewBaseView.m; sourceTree = "<group>"; };
+		9EE7F8FA1E8A5A9000A23D89 /* STTableViewBaseCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTableViewBaseCell.h; sourceTree = "<group>"; };
+		9EE7F8FB1E8A5A9000A23D89 /* STTableViewBaseCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTableViewBaseCell.m; sourceTree = "<group>"; };
+		9EE7F8FF1E8A5BDA00A23D89 /* STNavView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = STNavView.xib; path = ../../../../../../../Desktop/STNavView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,7 +180,7 @@
 		9E4A51E61E865F340086AB10 /* STBase */ = {
 			isa = PBXGroup;
 			children = (
-				9E50A2E11E895E5700C48947 /* STTableViewPickerBaseView */,
+				9EE7F8F41E8A5A3600A23D89 /* STTableViewBase */,
 				9E50A2DD1E895C6400C48947 /* STBaseView */,
 				9E50A2B91E8946B400C48947 /* STImgPickerBaseViewC */,
 				9E4A51E71E865F4B0086AB10 /* STBaseViewC */,
@@ -264,15 +267,6 @@
 			path = STBaseView;
 			sourceTree = "<group>";
 		};
-		9E50A2E11E895E5700C48947 /* STTableViewPickerBaseView */ = {
-			isa = PBXGroup;
-			children = (
-				9E50A2E21E895E6400C48947 /* STTableViewPickerBaseView.h */,
-				9E50A2E31E895E6400C48947 /* STTableViewPickerBaseView.m */,
-			);
-			path = STTableViewPickerBaseView;
-			sourceTree = "<group>";
-		};
 		9E50A2E51E89613F00C48947 /* STView */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,9 +278,9 @@
 		9E50A2E61E89614A00C48947 /* STNavView */ = {
 			isa = PBXGroup;
 			children = (
+				9EE7F8FF1E8A5BDA00A23D89 /* STNavView.xib */,
 				9E50A2E71E89614A00C48947 /* STNavView.h */,
 				9E50A2E81E89614A00C48947 /* STNavView.m */,
-				9E50A2E91E89614A00C48947 /* STNavView.xib */,
 			);
 			path = STNavView;
 			sourceTree = "<group>";
@@ -377,6 +371,33 @@
 				9EDA9D2B1E770125008317D3 /* Info.plist */,
 			);
 			path = STImgPickerCUITests;
+			sourceTree = "<group>";
+		};
+		9EE7F8F41E8A5A3600A23D89 /* STTableViewBase */ = {
+			isa = PBXGroup;
+			children = (
+				9EE7F8F61E8A5A6000A23D89 /* STTableViewBaseView */,
+				9EE7F8F51E8A5A4C00A23D89 /* STTableViewBaseCell */,
+			);
+			path = STTableViewBase;
+			sourceTree = "<group>";
+		};
+		9EE7F8F51E8A5A4C00A23D89 /* STTableViewBaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				9EE7F8FA1E8A5A9000A23D89 /* STTableViewBaseCell.h */,
+				9EE7F8FB1E8A5A9000A23D89 /* STTableViewBaseCell.m */,
+			);
+			path = STTableViewBaseCell;
+			sourceTree = "<group>";
+		};
+		9EE7F8F61E8A5A6000A23D89 /* STTableViewBaseView */ = {
+			isa = PBXGroup;
+			children = (
+				9EE7F8F71E8A5A6F00A23D89 /* STTableViewBaseView.h */,
+				9EE7F8F81E8A5A6F00A23D89 /* STTableViewBaseView.m */,
+			);
+			path = STTableViewBaseView;
 			sourceTree = "<group>";
 		};
 		9EE9FD6F1E7AE59200A1A9A2 /* STTool */ = {
@@ -510,7 +531,7 @@
 				9E50A2DC1E895C1200C48947 /* STSystemPickerShowViewC.xib in Resources */,
 				9EDA9D111E770124008317D3 /* Assets.xcassets in Resources */,
 				9EDA9D0F1E770124008317D3 /* Main.storyboard in Resources */,
-				9E50A2EB1E89614A00C48947 /* STNavView.xib in Resources */,
+				9EE7F9001E8A5BDA00A23D89 /* STNavView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,9 +606,10 @@
 			files = (
 				9E50A2C01E89488D00C48947 /* STPopMenuManager.m in Sources */,
 				9E50A2DB1E895C1200C48947 /* STSystemPickerShowViewC.m in Sources */,
-				9E50A2E41E895E6400C48947 /* STTableViewPickerBaseView.m in Sources */,
 				9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */,
+				9EE7F8F91E8A5A6F00A23D89 /* STTableViewBaseView.m in Sources */,
 				9E50A2CC1E89499B00C48947 /* PopMenuButton.m in Sources */,
+				9EE7F8FC1E8A5A9000A23D89 /* STTableViewBaseCell.m in Sources */,
 				9E50A2CB1E89499B00C48947 /* HyPopMenuView.m in Sources */,
 				9E50A2EA1E89614A00C48947 /* STNavView.m in Sources */,
 				9E50A2E01E895C8100C48947 /* STBaseView.m in Sources */,

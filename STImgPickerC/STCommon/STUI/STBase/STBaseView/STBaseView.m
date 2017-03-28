@@ -20,9 +20,34 @@
                                 andFrameRect:(CGRect)frameRect
                                  andComplete:(void(^)(BOOL finished,
                                                       STBaseView *stBaseView))block{
+    //①superView
+    if(!superView){
+        if (block) {
+            block(NO,nil);
+        }
+        return nil;
+    }
+    //②remove existing View
+    for (UIView *oneView in superView.subviews) {
+        if([oneView isKindOfClass:[self class]]){
+            [oneView removeFromSuperview];
+        }
+    }
+    //③new
+    STBaseView *stBaseView = [[[NSBundle mainBundle]loadNibNamed:@"STBaseView"
+                                                           owner:nil
+                                                         options:nil]firstObject];
+    //④frame
+    [stBaseView setFrame:superView.frame];
+    stBaseView.frame = frameRect;
+    //⑤ child
+    [superView addSubview:stBaseView];
+    //⑥ record
+    stBaseView.recordSupreView = superView;
+    //⑦ return、block
     if (block) {
         block(YES,nil);
     }
-     return nil;
+    return nil;
 }
 @end
