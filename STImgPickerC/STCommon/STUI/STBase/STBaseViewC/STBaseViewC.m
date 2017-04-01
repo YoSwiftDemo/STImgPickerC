@@ -29,11 +29,42 @@
                                andFrameRect:(CGRect)frameRect
                    andSTViewCTransitionType:(STViewCTransitionType)stViewCTransitionType
                                 andComplete:(void(^)(BOOL finished,STBaseViewC *stBaseViewC))block{
-    //need to rewrite on subViewC
-    if (block) {
-        block(YES,nil);
+    if (stViewCTransitionType == STViewCTransitionOfChild) {
+        //① superViewC
+        if (!superViewC) {
+            if (block) {
+                block(NO,nil);
+            }
+        }
+        //② remove from superViewC
+        for (UIViewController *oneViewC in superViewC.childViewControllers) {
+            if ([oneViewC isKindOfClass:[self class]]) {
+                [oneViewC removeFromParentViewController];
+                [oneViewC.view removeFromSuperview];
+            }
+        }
     }
-    return nil;
+    //③ newViewC
+    STBaseViewC *newViewC = [[self alloc]initWithNibName:NSStringFromClass([self class])
+                                                         bundle:nil];
+    NSLog(@"=======11===== %@",NSStringFromClass([self class]));
+    //④ add child for superViewC
+    if (stViewCTransitionType == STViewCTransitionOfChild) {
+        //ViewC
+        [newViewC.view setFrame:superViewC.view.frame];
+        newViewC.view.frame = frameRect;
+        //child
+        [superViewC addChildViewController:newViewC];
+        [superViewC.view addSubview:newViewC.view];
+    }
+    //⑤ record
+    newViewC.recordSuperViewC = superViewC;
+    //⑥ block
+    if (block) {
+        block(YES,newViewC);
+    }
+    //⑦ return
+    return newViewC;
 }
 #pragma mark ------- show Request API
 -(void)showAPIDataAndComplete:(void(^)(BOOL finished))block{
@@ -59,22 +90,22 @@
                                                 [tableView.mj_header endRefreshing];
                                             }
                                         }];
-                                                      }
+                                    }
                                       andDropUpBlock:^{
                                           if (_hasNextPage == YES) {
                                               _recordCurrentPage++;
-                                                [self showAPIDataAndComplete:^(BOOL finished) {
-                                                    if (finished) {
-                                                        
-                                                    }else{
-                                                        _recordCurrentPage--;
-                                                    }
-                                                    if ([tableView.mj_footer isRefreshing]) {
-                                                        [tableView.mj_footer endRefreshing];
-                                                    }
-                                                }];
+                                              [self showAPIDataAndComplete:^(BOOL finished) {
+                                                  if (finished) {
+                                                      
+                                                  }else{
+                                                      _recordCurrentPage--;
+                                                  }
+                                                  if ([tableView.mj_footer isRefreshing]) {
+                                                      [tableView.mj_footer endRefreshing];
+                                                  }
+                                              }];
                                           }
-    }];
+                                      }];
 }
 #pragma mark -----IQKeyboardManager
 -(void)viewDidAppear:(BOOL)animated
