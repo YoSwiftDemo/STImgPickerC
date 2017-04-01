@@ -16,7 +16,7 @@
  *
  * @attention: 1. base class declaration 2.subclass implementation、
  */
-+(STBaseView *)showSTUIBridgeViewOnSuperView:(UIView *)superView
++(STBaseView *)showSTBaseViewOnSuperView:(UIView *)superView
                                 andFrameRect:(CGRect)frameRect
                                  andComplete:(void(^)(BOOL finished,
                                                       STBaseView *stBaseView))block{
@@ -34,21 +34,21 @@
         }
     }
     //③new
-    STBaseView *newViewC = [[[NSBundle mainBundle]loadNibNamed:NSStringFromClass([self class])
+    STBaseView *newView = [[[NSBundle mainBundle]loadNibNamed:NSStringFromClass([self class])
                                                            owner:nil
                                                          options:nil]firstObject];
     
     //④frame
     //[stBaseView setFrame:superView.frame];
-    newViewC.frame = frameRect;
+    newView.frame = frameRect;
     //⑤ child
-    [superView addSubview:newViewC];
+    [superView addSubview:newView];
     //⑥ record
-    newViewC.recordSupreView = superView;
+    newView.recordSupreView = superView;
     //⑦ return、block
     if (block) {
-        block(YES,newViewC);
+        block(YES,newView);
     }
-    return newViewC;
+    return newView;
 }
 @end

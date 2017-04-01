@@ -31,12 +31,11 @@
 
 }
 
-
 #pragma *************************** Getter ***************************
 #pragma mark --- stNavView
 -(STNavView *)stNavView{
     if (!_stNavView) {
-        _stNavView = (STNavView *)[STNavView showSTUIBridgeViewOnSuperView:self
+        _stNavView = (STNavView *)[STNavView showSTBaseViewOnSuperView:self
                                                               andFrameRect:CGRectMake(0, 0, self.frame.size.width, 64)
                                                                andComplete:^(BOOL finished,
                                                                              STBaseView *stBaseView) {

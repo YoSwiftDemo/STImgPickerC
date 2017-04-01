@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STBaseView : UIView
+@interface STBaseView : UIView 
 #pragma mark *************************** Property **************************
 @property (nonatomic ,strong)UIView           *recordSupreView;
 @property (nonatomic ,strong)UIViewController *recordSupreViewC;
@@ -19,7 +19,7 @@
  *
  * @attention: 1. base class declaration 2.subclass implementation、
  */
-+(STBaseView *)showSTUIBridgeViewOnSuperView:(UIView *)superView
++(STBaseView *)showSTBaseViewOnSuperView:(UIView *)superView
                                 andFrameRect:(CGRect)frameRect
                                  andComplete:(void(^)(BOOL finished,
                                                       STBaseView *stBaseView))block;

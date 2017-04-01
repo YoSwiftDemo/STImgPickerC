@@ -35,7 +35,7 @@
 */
 -(STSystemPickerShowView *)stSystemPickerShowView{
     if (!_stSystemPickerShowView) {
-        _stSystemPickerShowView = (STSystemPickerShowView *) [STSystemPickerShowView showSTUIBridgeViewOnSuperView:self.view andFrameRect:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) andComplete:^(BOOL finished, STBaseView *stBaseView) {
+        _stSystemPickerShowView = (STSystemPickerShowView *) [STSystemPickerShowView showSTBaseViewOnSuperView:self.view andFrameRect:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) andComplete:^(BOOL finished, STBaseView *stBaseView) {
             
         }];
         _stSystemPickerShowView.backgroundColor = [UIColor redColor];
