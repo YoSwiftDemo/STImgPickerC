@@ -2,14 +2,14 @@
 //  STBaseViewC.h
 //  STImgPickerC
 //
-//  Created by 岳克奎 on 17/3/25.
-//  Copyright © 2017年 SlienceTeam. All rights reserved.
+//  Created by 岳克奎 on 15/3/25.
+//  Copyright © 2015年 SlienceTeam. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <IQKeyboardManager.h>
 #import "STRefresh.h"
-#pragma mark - 转场方式
+#pragma mark - TransitionTyp
 typedef NS_ENUM(NSUInteger, STViewCTransitionType) {
     STViewCTransitionTypeOfPush       = 0,  // psuh
     STViewCTransitionTypeOfModal      = 1,  // Model

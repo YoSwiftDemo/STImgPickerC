@@ -10,6 +10,7 @@
 		447023A85A15324FF2888752 /* libPods-STImgPickerC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EFD8597E0182E8D9BB2DF61 /* libPods-STImgPickerC.a */; };
 		9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */; };
 		9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51ED1E86681B0086AB10 /* STRefresh.m */; };
+		9EAE14BC1E86CE120023637B /* STImgPickerBaseC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE14BB1E86CE120023637B /* STImgPickerBaseC.m */; };
 		9EDA9D061E770124008317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D051E770124008317D3 /* main.m */; };
 		9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D081E770124008317D3 /* AppDelegate.m */; };
 		9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D0B1E770124008317D3 /* ViewController.m */; };
@@ -46,6 +47,8 @@
 		9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewC.m; sourceTree = "<group>"; };
 		9E4A51EC1E86681B0086AB10 /* STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefresh.h; sourceTree = "<group>"; };
 		9E4A51ED1E86681B0086AB10 /* STRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRefresh.m; sourceTree = "<group>"; };
+		9EAE14BA1E86CE120023637B /* STImgPickerBaseC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImgPickerBaseC.h; sourceTree = "<group>"; };
+		9EAE14BB1E86CE120023637B /* STImgPickerBaseC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImgPickerBaseC.m; sourceTree = "<group>"; };
 		9EDA9D011E770124008317D3 /* STImgPickerC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STImgPickerC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA9D051E770124008317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EDA9D071E770124008317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -167,8 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				9E4A51E51E865F270086AB10 /* STUI */,
-				9EE9FD701E7AE5AE00A1A9A2 /* STCenter */,
-				9EE9FD6F1E7AE59200A1A9A2 /* STTool */,
 			);
 			path = STCommon;
 			sourceTree = "<group>";
@@ -178,6 +179,15 @@
 			children = (
 			);
 			path = STShowThird;
+			sourceTree = "<group>";
+		};
+		9EAE14B91E86CDD50023637B /* STImgPickerBaseC */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE14BA1E86CE120023637B /* STImgPickerBaseC.h */,
+				9EAE14BB1E86CE120023637B /* STImgPickerBaseC.m */,
+			);
+			path = STImgPickerBaseC;
 			sourceTree = "<group>";
 		};
 		9EDA9CF81E770124008317D3 = {
@@ -205,6 +215,7 @@
 		9EDA9D031E770124008317D3 /* STImgPickerC */ = {
 			isa = PBXGroup;
 			children = (
+				9EAE14B91E86CDD50023637B /* STImgPickerBaseC */,
 				9E4A51E41E865EF40086AB10 /* STShowViewC */,
 				9E09054A1E7835BA0038AB09 /* STImgPickerCPch */,
 				9E09054D1E783F240038AB09 /* STVideo */,
@@ -248,20 +259,6 @@
 				9EDA9D2B1E770125008317D3 /* Info.plist */,
 			);
 			path = STImgPickerCUITests;
-			sourceTree = "<group>";
-		};
-		9EE9FD6F1E7AE59200A1A9A2 /* STTool */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = STTool;
-			sourceTree = "<group>";
-		};
-		9EE9FD701E7AE5AE00A1A9A2 /* STCenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = STCenter;
 			sourceTree = "<group>";
 		};
 		AE585406A722600855FCB311 /* Frameworks */ = {
@@ -462,6 +459,7 @@
 				9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */,
 				9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */,
 				9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */,
+				9EAE14BC1E86CE120023637B /* STImgPickerBaseC.m in Sources */,
 				9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */,
 				9EDA9D061E770124008317D3 /* main.m in Sources */,
 			);
