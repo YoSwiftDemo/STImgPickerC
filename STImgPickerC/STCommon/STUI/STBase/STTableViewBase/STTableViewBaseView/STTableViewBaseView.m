@@ -34,13 +34,14 @@
 #pragma *************************** Getter ***************************
 #pragma mark --- stNavView
 -(STNavView *)stNavView{
-    if (!_stNavView) {
+    if (!_stNavView) { 
         _stNavView = (STNavView *)[STNavView showSTBaseViewOnSuperView:self
-                                                              andFrameRect:CGRectMake(0, 0, self.frame.size.width, 64)
+                                                              andFrameRect:CGRectMake(0, 0,self.frame.size.width, 64)
                                                                andComplete:^(BOOL finished,
                                                                              STBaseView *stBaseView) {
                                                                    
                                                                }];
+        
         [_stNavView setDelegate:self];
     }
     return _stNavView;
@@ -48,7 +49,7 @@
 #pragma mark --- tableView
 -(UITableView *)tableView{
     if (!_tableView) {
-        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,64,self.frame.size.width, self.frame.size.height-64)
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0,64,self.frame.size.width,self.frame.size.height)
                                                  style:UITableViewStylePlain];
         _tableView.backgroundColor = [UIColor groupTableViewBackgroundColor];
         _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;

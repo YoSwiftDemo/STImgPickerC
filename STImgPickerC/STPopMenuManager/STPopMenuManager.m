@@ -99,13 +99,11 @@ static STPopMenuManager *signleton = nil;
                                                                                                               andSTViewCTransitionType:STViewCTransitionTypeOfPush
                                                                                                                            andComplete:^(BOOL finished,
                                                                                                                                          STBaseViewC *stBaseViewC) {
-        
+
     }];
     if (!stSystemPickerShowViewC) {
         return;
     }
-    
-    
        stSystemPickerShowViewC.stSystemPickerShowView = [stSystemPickerShowViewC stSystemPickerShowView];
     [stSystemPickerShowViewC showSTRefreshTableView: [stSystemPickerShowViewC.stSystemPickerShowView tableView]
                                    andSTRefreshType:STRefreshTypeDefault
