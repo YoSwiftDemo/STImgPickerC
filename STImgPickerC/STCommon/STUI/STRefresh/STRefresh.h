@@ -26,7 +26,7 @@ typedef NS_ENUM(NSInteger, STRefreshHeaderType) {
 @property (nonatomic ,strong) NSMutableArray            <UIImage *>*idleImgMArray;
 @property (nonatomic ,strong) NSMutableArray            <UIImage *>*pullingImgMArray;
 @property (nonatomic ,strong) NSMutableArray            <UIImage *>*refreshingImgMArray;
-@property (nonatomic, strong) MJRefreshNormalHeader     *normalheader;                          //MJRefresh Normal Header
+@property (nonatomic, strong) MJRefreshNormalHeader     *normalHeader;                          //MJRefresh Normal Header
 @property (nonatomic, strong) MJRefreshGifHeader        *gifHeader;                             //MJRefresh Gif Header
 @property (nonatomic, strong) MJRefreshAutoNormalFooter *footer;                                //MJRefreshAuto NormalFooter
 @property (nonatomic, copy)   void(^stRefreshDropDownBlock)(void);                              //Drop Down block

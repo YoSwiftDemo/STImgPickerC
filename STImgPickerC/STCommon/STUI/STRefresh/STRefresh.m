@@ -53,12 +53,12 @@ static STRefresh *signleton = nil;
         self.stRefreshDropDownBlock = dropDownBlock;
         if (stRefreshHeaderType == STRefreshHeaderTypeNormal) {
             //_normalheader
-            if (!_normalheader) {
-                [self normalheader];
+            if (!_normalHeader) {
+                [self normalHeader];
             }
-            _normalheader.lastUpdatedTimeLabel.hidden = timeLabHidden;
-            _normalheader.stateLabel.hidden = stateLabHidden;
-            tableView.mj_header = _normalheader;
+            _normalHeader.lastUpdatedTimeLabel.hidden = timeLabHidden;
+            _normalHeader.stateLabel.hidden = stateLabHidden;
+            tableView.mj_header = _normalHeader;
             tableView.mj_header.automaticallyChangeAlpha = YES;
             
         }
@@ -107,13 +107,14 @@ static STRefresh *signleton = nil;
     [_refreshingImgMArray removeAllObjects];
     _refreshingImgMArray = refreshingImgMArray.mutableCopy;
 }
-#pragma mark  -- normalheader
--(MJRefreshNormalHeader *)normalheader{
-    if (!_normalheader) {
-        _normalheader = [MJRefreshNormalHeader headerWithRefreshingTarget:self
+#pragma mark ********************* Getter ************************
+#pragma mark  -- normalHeader
+-(MJRefreshNormalHeader *)normalHeader{
+    if (!_normalHeader) {
+        _normalHeader = [MJRefreshNormalHeader headerWithRefreshingTarget:self
                                                          refreshingAction:@selector(dropDownBlockAction)];
     }
-    return _normalheader;
+    return _normalHeader;
 }
 #pragma mark  -- gifHeader
 -(MJRefreshGifHeader *)gifHeader{
@@ -131,7 +132,7 @@ static STRefresh *signleton = nil;
     }
     return _footer;
 }
-#pragma mark ********************* Peivate ************************
+#pragma mark ********************* Private ************************
 #pragma mark -- drop Down blcok
 -(void)dropDownBlockAction{
     if (_stRefreshDropDownBlock) {

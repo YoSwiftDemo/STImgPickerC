@@ -15,6 +15,9 @@
 		9E0A8B931E8A909400EC0181 /* STSystemPickerShowView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E0A8B921E8A909400EC0181 /* STSystemPickerShowView.xib */; };
 		9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */; };
 		9E4A51EE1E86681B0086AB10 /* STRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A51ED1E86681B0086AB10 /* STRefresh.m */; };
+<<<<<<< HEAD
+		9EAE14BC1E86CE120023637B /* STImgPickerBaseC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EAE14BB1E86CE120023637B /* STImgPickerBaseC.m */; };
+=======
 		9E50A2BC1E8946C300C48947 /* STImgPickerBaseViewC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2BB1E8946C300C48947 /* STImgPickerBaseViewC.m */; };
 		9E50A2C01E89488D00C48947 /* STPopMenuManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2BF1E89488D00C48947 /* STPopMenuManager.m */; };
 		9E50A2CB1E89499B00C48947 /* HyPopMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2C31E89499B00C48947 /* HyPopMenuView.m */; };
@@ -25,6 +28,7 @@
 		9E50A2DC1E895C1200C48947 /* STSystemPickerShowViewC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E50A2DA1E895C1200C48947 /* STSystemPickerShowViewC.xib */; };
 		9E50A2E01E895C8100C48947 /* STBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2DF1E895C8100C48947 /* STBaseView.m */; };
 		9E50A2EA1E89614A00C48947 /* STNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E50A2E81E89614A00C48947 /* STNavView.m */; };
+>>>>>>> origin/master
 		9EDA9D061E770124008317D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D051E770124008317D3 /* main.m */; };
 		9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D081E770124008317D3 /* AppDelegate.m */; };
 		9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA9D0B1E770124008317D3 /* ViewController.m */; };
@@ -70,6 +74,10 @@
 		9E4A51E91E865F5F0086AB10 /* STBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseViewC.m; sourceTree = "<group>"; };
 		9E4A51EC1E86681B0086AB10 /* STRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STRefresh.h; sourceTree = "<group>"; };
 		9E4A51ED1E86681B0086AB10 /* STRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STRefresh.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		9EAE14BA1E86CE120023637B /* STImgPickerBaseC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImgPickerBaseC.h; sourceTree = "<group>"; };
+		9EAE14BB1E86CE120023637B /* STImgPickerBaseC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImgPickerBaseC.m; sourceTree = "<group>"; };
+=======
 		9E50A2BA1E8946C300C48947 /* STImgPickerBaseViewC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STImgPickerBaseViewC.h; sourceTree = "<group>"; };
 		9E50A2BB1E8946C300C48947 /* STImgPickerBaseViewC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STImgPickerBaseViewC.m; sourceTree = "<group>"; };
 		9E50A2BE1E89488D00C48947 /* STPopMenuManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPopMenuManager.h; sourceTree = "<group>"; };
@@ -90,6 +98,7 @@
 		9E50A2DF1E895C8100C48947 /* STBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STBaseView.m; sourceTree = "<group>"; };
 		9E50A2E71E89614A00C48947 /* STNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STNavView.h; sourceTree = "<group>"; };
 		9E50A2E81E89614A00C48947 /* STNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STNavView.m; sourceTree = "<group>"; };
+>>>>>>> origin/master
 		9EDA9D011E770124008317D3 /* STImgPickerC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STImgPickerC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDA9D051E770124008317D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9EDA9D071E770124008317D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -234,8 +243,12 @@
 		9E50A2B91E8946B400C48947 /* STImgPickerBaseViewC */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				9E4A51E51E865F270086AB10 /* STUI */,
+=======
 				9E50A2BA1E8946C300C48947 /* STImgPickerBaseViewC.h */,
 				9E50A2BB1E8946C300C48947 /* STImgPickerBaseViewC.m */,
+>>>>>>> origin/master
 			);
 			path = STImgPickerBaseViewC;
 			sourceTree = "<group>";
@@ -320,6 +333,15 @@
 			path = STCommon;
 			sourceTree = "<group>";
 		};
+		9EAE14B91E86CDD50023637B /* STImgPickerBaseC */ = {
+			isa = PBXGroup;
+			children = (
+				9EAE14BA1E86CE120023637B /* STImgPickerBaseC.h */,
+				9EAE14BB1E86CE120023637B /* STImgPickerBaseC.m */,
+			);
+			path = STImgPickerBaseC;
+			sourceTree = "<group>";
+		};
 		9EDA9CF81E770124008317D3 = {
 			isa = PBXGroup;
 			children = (
@@ -345,8 +367,12 @@
 		9EDA9D031E770124008317D3 /* STImgPickerC */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				9EAE14B91E86CDD50023637B /* STImgPickerBaseC */,
+=======
 				9E50A2D61E895C0C00C48947 /* STSystemPickerShow */,
 				9E50A2BD1E89487A00C48947 /* STPopMenuManager */,
+>>>>>>> origin/master
 				9E4A51E41E865EF40086AB10 /* STShowViewC */,
 				9E09054A1E7835BA0038AB09 /* STImgPickerCPch */,
 				9E675B631E77037200FCEA79 /* STCommon */,
@@ -389,6 +415,8 @@
 			path = STImgPickerCUITests;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
+=======
 		9EE7F8F41E8A5A3600A23D89 /* STTableViewBase */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,6 +451,7 @@
 			path = STTool;
 			sourceTree = "<group>";
 		};
+>>>>>>> origin/master
 		AE585406A722600855FCB311 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -635,6 +664,7 @@
 				9E0A8B901E8A803000EC0181 /* STTableBtnCell.m in Sources */,
 				9E4A51EA1E865F5F0086AB10 /* STBaseViewC.m in Sources */,
 				9EDA9D0C1E770124008317D3 /* ViewController.m in Sources */,
+				9EAE14BC1E86CE120023637B /* STImgPickerBaseC.m in Sources */,
 				9EDA9D091E770124008317D3 /* AppDelegate.m in Sources */,
 				9E0A8B821E8A7EA500EC0181 /* STSystemPickerShowView.m in Sources */,
 				9E50A2BC1E8946C300C48947 /* STImgPickerBaseViewC.m in Sources */,

@@ -17,6 +17,8 @@
 #pragma mark ------------------------ Third lib
 #import <XXNibBridge.h> //bridge view
 
+#import "STBaseViewC.h"
+#import <TZImagePickerController.h>
 
 #pragma mark ------------------------
 
